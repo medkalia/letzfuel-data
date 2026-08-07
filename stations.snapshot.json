@@ -1,0 +1,5379 @@
+{
+  "generatedAt": "2026-08-07T15:06:49.750Z",
+  "osmTimestamp": "2026-08-07T15:04:51Z",
+  "attribution": "© OpenStreetMap contributors",
+  "licenseUrl": "https://www.openstreetmap.org/copyright",
+  "stations": [
+    {
+      "id": "node/5077905459",
+      "name": "136",
+      "latitude": 49.6220943,
+      "longitude": 6.0488507,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5077905459"
+    },
+    {
+      "id": "node/3500172788",
+      "name": "Aire de Capellen Sud",
+      "latitude": 49.6354643,
+      "longitude": 5.968582,
+      "fuelTypes": [
+        "Super 95",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/3500172788"
+    },
+    {
+      "id": "node/1067580027",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5414461,
+      "longitude": 5.8160523,
+      "address": "515 Route de Longwy, 4832 Rodange",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1067580027"
+    },
+    {
+      "id": "node/11897461937",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.7009221,
+      "longitude": 6.018405,
+      "address": "3 Rue de Luxembourg, 7412 Bour",
+      "fuelTypes": [
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11897461937"
+    },
+    {
+      "id": "node/13087261456",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.8848228,
+      "longitude": 6.1368503,
+      "openingHours": "Mo-Fr 05:00-23:00, Sa-Su 06:00-22:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "LPG"
+      ],
+      "services": [
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/13087261456"
+    },
+    {
+      "id": "node/13453002532",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.8510604,
+      "longitude": 6.1129957,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/13453002532"
+    },
+    {
+      "id": "node/13496980977",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.6586816,
+      "longitude": 5.907037,
+      "address": "43 Route d'Arlon, 8410 Steinfort",
+      "openingHours": "Mo-Fr 06:00-22:00; Sa,Su 07:00-21:00",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 39 79 70",
+      "osmUrl": "https://www.openstreetmap.org/node/13496980977"
+    },
+    {
+      "id": "node/13630916976",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.8334874,
+      "longitude": 5.7398778,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/13630916976"
+    },
+    {
+      "id": "node/1400931695",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.9607526,
+      "longitude": 5.8601512,
+      "address": "8 Bastnicherstrooss, 9638 Pommerloch",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1400931695"
+    },
+    {
+      "id": "node/1495287079",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5046557,
+      "longitude": 6.2691312,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1495287079"
+    },
+    {
+      "id": "node/1495371494",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5111154,
+      "longitude": 6.1908518,
+      "address": "33 Robert-Schuman-Strooss, 5751 Frisange",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1495371494"
+    },
+    {
+      "id": "node/1796974601",
+      "name": "Aral",
+      "brand": "Aral",
+      "latitude": 49.8746635,
+      "longitude": 5.9306085,
+      "address": "5 Bousserstrooss, 9144 Hierheck",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1796974601"
+    },
+    {
+      "id": "node/203142752",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5227587,
+      "longitude": 6.0993469,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/203142752"
+    },
+    {
+      "id": "node/2095556708",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.7657546,
+      "longitude": 5.8797084,
+      "fuelTypes": [
+        "Super 98",
+        "Super 100",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2095556708"
+    },
+    {
+      "id": "node/2460493511",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.8527037,
+      "longitude": 6.0469607,
+      "address": "19 Route de Bastogne, 9176 Niederfeulen",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/2460493511"
+    },
+    {
+      "id": "node/246773770",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.8528855,
+      "longitude": 6.1306659,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/246773770"
+    },
+    {
+      "id": "node/246807990",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.6902973,
+      "longitude": 6.238622,
+      "address": "23 Route de Luxembourg, 6182 Gonderange",
+      "openingHours": "Mo-Su 06:00-22:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/246807990"
+    },
+    {
+      "id": "node/260345622",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.677767,
+      "longitude": 6.4394317,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/260345622"
+    },
+    {
+      "id": "node/266159908",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5461995,
+      "longitude": 5.897224,
+      "openingHours": "Mo-Sa 07:00-20:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://colle.lu/",
+      "osmUrl": "https://www.openstreetmap.org/node/266159908"
+    },
+    {
+      "id": "node/266179818",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5553005,
+      "longitude": 5.8704768,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Super 100",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/266179818"
+    },
+    {
+      "id": "node/317953425",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.4756701,
+      "longitude": 6.3661878,
+      "address": "9 Wäistrooss, 5445 Schengen",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 26665342",
+      "osmUrl": "https://www.openstreetmap.org/node/317953425"
+    },
+    {
+      "id": "node/408181771",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.7180314,
+      "longitude": 6.1259122,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "LPG"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/408181771"
+    },
+    {
+      "id": "node/576518089",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 50.1484895,
+      "longitude": 6.0582055,
+      "address": "24 Op der Haart, 9999 Wemperhardt",
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/576518089"
+    },
+    {
+      "id": "node/6940394130",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5415181,
+      "longitude": 5.8152848,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/6940394130"
+    },
+    {
+      "id": "node/747317216",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.4848976,
+      "longitude": 6.3574359,
+      "address": "126 Wäistrooss, 5440 Remerschen",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/747317216"
+    },
+    {
+      "id": "node/924018959",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.6055728,
+      "longitude": 6.1013974,
+      "openingHours": "Mo-Fr 06:00-22:00; Sa-Su 10:00-18:00",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "vacuum",
+          "label": "Vacuum",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/924018959"
+    },
+    {
+      "id": "node/924018962",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.6059133,
+      "longitude": 6.1014648,
+      "openingHours": "Mo-Su 06:00-23:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "CNG"
+      ],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "vacuum",
+          "label": "Vacuum",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/924018962"
+    },
+    {
+      "id": "way/118792189",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5208462,
+      "longitude": 5.9105896,
+      "address": "182 Rue de Soleuvre, 4670 Differdange",
+      "openingHours": "Mo-Fr 06:00-22:00; Sa,Su 07:00-22:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 58 64 17",
+      "osmUrl": "https://www.openstreetmap.org/way/118792189"
+    },
+    {
+      "id": "way/1334673651",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.6516998,
+      "longitude": 6.1278947,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "vacuum",
+          "label": "Vacuum",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/1334673651"
+    },
+    {
+      "id": "way/134421205",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.4899793,
+      "longitude": 6.0833894,
+      "address": "106 Route de Luxembourg, 3515 Dudelange",
+      "openingHours": "Mo-Su 06:00-22:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/134421205"
+    },
+    {
+      "id": "way/161912527",
+      "name": "Aral",
+      "latitude": 49.6175973,
+      "longitude": 6.111315,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/161912527"
+    },
+    {
+      "id": "way/187646012",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5856297,
+      "longitude": 6.1440683,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/187646012"
+    },
+    {
+      "id": "way/217472459",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.9742074,
+      "longitude": 6.0901186,
+      "address": "36 Haaptstrooss, 9835 Hoscheid-Dickt",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/217472459"
+    },
+    {
+      "id": "way/234298290",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5228647,
+      "longitude": 6.0084721,
+      "address": "6 Rue du Brill, 3898 Foetz",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/234298290"
+    },
+    {
+      "id": "way/238035104",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5475993,
+      "longitude": 6.3624386,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/238035104"
+    },
+    {
+      "id": "way/238035108",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5469509,
+      "longitude": 6.3642702,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/238035108"
+    },
+    {
+      "id": "way/41974931",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.6291811,
+      "longitude": 6.2041191,
+      "address": "3 Rue de Trèves, 2632 Findel",
+      "fuelTypes": [
+        "CNG"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/41974931"
+    },
+    {
+      "id": "way/462873156",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.9292696,
+      "longitude": 6.2221419,
+      "address": "1A Route de Bettel, 9415 Vianden",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/462873156"
+    },
+    {
+      "id": "way/511711128",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.8081595,
+      "longitude": 6.4291934,
+      "address": "42 Route de Wasserbillig, 6490 Echternach",
+      "openingHours": "Mo-Su 06:00-22:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/511711128"
+    },
+    {
+      "id": "way/846733462",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.7067827,
+      "longitude": 6.2531028,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/846733462"
+    },
+    {
+      "id": "way/86553379",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5623907,
+      "longitude": 5.9006805,
+      "address": "28 Avenue de Luxembourg, 4950 Bascharage",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Super 100",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/86553379"
+    },
+    {
+      "id": "way/964095670",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.9624726,
+      "longitude": 5.9214028,
+      "address": "38 Rue Michel Thilges, 9573 Wiltz",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/964095670"
+    },
+    {
+      "id": "relation/14282757",
+      "name": "Aral Mertert",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.7094392,
+      "longitude": 6.4901682,
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 74 01 09",
+      "osmUrl": "https://www.openstreetmap.org/relation/14282757"
+    },
+    {
+      "id": "way/248085232",
+      "name": "Aral Schëffléng",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5095883,
+      "longitude": 6.0116819,
+      "address": "26 Rue Denis Netgen, 3858 Schifflange",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/248085232"
+    },
+    {
+      "id": "node/12639392389",
+      "name": "AS 24",
+      "brand": "AS 24",
+      "brandWikidata": "Q2819394",
+      "latitude": 49.5514412,
+      "longitude": 5.8262121,
+      "fuelTypes": [
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/12639392389"
+    },
+    {
+      "id": "node/9241501995",
+      "name": "AS24",
+      "brand": "AS 24",
+      "brandWikidata": "Q2819394",
+      "latitude": 49.5432873,
+      "longitude": 5.8176374,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/9241501995"
+    },
+    {
+      "id": "node/11585193680",
+      "name": "Autocenter Goedert",
+      "latitude": 49.5476084,
+      "longitude": 6.3596669,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/11585193680"
+    },
+    {
+      "id": "way/127414824",
+      "name": "Berchem-Est",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.5416104,
+      "longitude": 6.1188719,
+      "fuelTypes": [
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/127414824"
+    },
+    {
+      "id": "way/127414825",
+      "name": "Berchem-Est",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.541252,
+      "longitude": 6.1199874,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/127414825"
+    },
+    {
+      "id": "way/127414419",
+      "name": "Berchem-Ouest",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.5425576,
+      "longitude": 6.1175616,
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "LPG"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/127414419"
+    },
+    {
+      "id": "way/549586730",
+      "name": "Bombicht Shell",
+      "latitude": 49.6439925,
+      "longitude": 6.265553,
+      "address": "57 Rue Gabriel Lippmann, 6947 Niederanven",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/549586730"
+    },
+    {
+      "id": "node/1572937954",
+      "name": "BP",
+      "brand": "BP",
+      "latitude": 49.8379922,
+      "longitude": 5.8388965,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1572937954"
+    },
+    {
+      "id": "node/1727795180",
+      "name": "BP",
+      "brand": "BP",
+      "brandWikidata": "Q152057",
+      "latitude": 50.1493728,
+      "longitude": 6.0572654,
+      "address": "17 Op der Haart, 9999 Wemperhardt",
+      "openingHours": "Mo-Sa 06:00-21:30, Su 08:00-21:30, Mo-Fr 05:30-21:30",
+      "fuelTypes": [
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1727795180"
+    },
+    {
+      "id": "way/117589688",
+      "name": "BP",
+      "brand": "BP",
+      "brandWikidata": "Q152057",
+      "latitude": 49.6350452,
+      "longitude": 5.9696187,
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "LPG"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/117589688"
+    },
+    {
+      "id": "way/117589699",
+      "name": "BP",
+      "brand": "BP",
+      "brandWikidata": "Q152057",
+      "latitude": 49.6354239,
+      "longitude": 5.9702388,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/117589699"
+    },
+    {
+      "id": "node/13649673139",
+      "name": "BP Martelange",
+      "brand": "BP",
+      "brandWikidata": "Q152057",
+      "latitude": 49.8280931,
+      "longitude": 5.7460841,
+      "address": "19 Route d'Arlon, 8832 Rombach-Martelange",
+      "openingHours": "Mo-Su 06:00-22:00",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 23 64 06 75",
+      "website": "https://www.bp-martelange.lu",
+      "osmUrl": "https://www.openstreetmap.org/node/13649673139"
+    },
+    {
+      "id": "node/279317031",
+      "name": "Bridel L07223",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.6555456,
+      "longitude": 6.0831091,
+      "address": "80 Rue de Luxembourg, 8140 Bridel",
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95 E10",
+        "Super 98"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 33 82 97",
+      "website": "https://find.shell.com/lu/fuel/10030280-bridel-l07223",
+      "osmUrl": "https://www.openstreetmap.org/node/279317031"
+    },
+    {
+      "id": "node/1067580048",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5418726,
+      "longitude": 5.8166118,
+      "openingHours": "24/7",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1067580048"
+    },
+    {
+      "id": "node/12742220565",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.8800818,
+      "longitude": 5.9912717,
+      "address": "3, 9156 Fuussekaul",
+      "openingHours": "Mo-Su 05:00-23:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "EV charging"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 26889796",
+      "osmUrl": "https://www.openstreetmap.org/node/12742220565"
+    },
+    {
+      "id": "node/1350561692",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5110179,
+      "longitude": 6.1904442,
+      "address": "24 Robert-Schuman-Strooss, 5751 Frisange",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1350561692"
+    },
+    {
+      "id": "node/1439664829",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5084216,
+      "longitude": 6.1922863,
+      "address": "59 Robert-Schuman-Strooss, 5751 Frisange",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1439664829"
+    },
+    {
+      "id": "node/1923335560",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.8062423,
+      "longitude": 6.4073551,
+      "address": "109 Route de Luxembourg, 6562 Echternach",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1923335560"
+    },
+    {
+      "id": "node/267495881",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5623539,
+      "longitude": 5.8983407,
+      "address": "5 Avenue de Luxembourg, 4950 Bascharage",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/267495881"
+    },
+    {
+      "id": "node/290363576",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5470573,
+      "longitude": 6.3629173,
+      "address": "9 Route de l'Europe, 5531 Remich",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/290363576"
+    },
+    {
+      "id": "node/302705988",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5591532,
+      "longitude": 5.8640528,
+      "address": "108 Rue d'Athus, 4711 Pétange",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/302705988"
+    },
+    {
+      "id": "node/303717534",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.7080699,
+      "longitude": 6.4886508,
+      "address": "30 Route de Wasserbillig, 6686 Mertert",
+      "openingHours": "Mo-Sa 05:30-22:00; Su 07:00-22:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "station"
+        }
+      ],
+      "phone": "+352 74 03 48",
+      "osmUrl": "https://www.openstreetmap.org/node/303717534"
+    },
+    {
+      "id": "node/472185445",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5666891,
+      "longitude": 6.0791193,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/472185445"
+    },
+    {
+      "id": "node/980980023",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.6934388,
+      "longitude": 5.8703983,
+      "address": "1A La Gaichel, 8469 Eischen",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/980980023"
+    },
+    {
+      "id": "node/983576537",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.7899332,
+      "longitude": 6.2194177,
+      "address": "35 Rue de Medernach, 7619 Larochette",
+      "openingHours": "Mo-Su 06:00-22:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.esso.lu/fr-lu/find-station/esso-larochette-essolarochette-100338209",
+      "osmUrl": "https://www.openstreetmap.org/node/983576537"
+    },
+    {
+      "id": "way/113144986",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.4944337,
+      "longitude": 6.0856802,
+      "address": "214 Route de Luxembourg, 3515 Dudelange",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/113144986"
+    },
+    {
+      "id": "way/117563684",
+      "name": "Esso",
+      "brand": "Esso",
+      "latitude": 49.480302,
+      "longitude": 6.3644364,
+      "address": "3 Schengerwis, 5439 Remerschen",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 26 66 70 1",
+      "osmUrl": "https://www.openstreetmap.org/way/117563684"
+    },
+    {
+      "id": "way/128219984",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.6127891,
+      "longitude": 6.2276877,
+      "address": "1 Rue de Remich, 5250 Sandweiler",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/128219984"
+    },
+    {
+      "id": "way/134421172",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.4917329,
+      "longitude": 6.084319,
+      "address": "132 Route de Luxembourg, 3515 Dudelange",
+      "openingHours": "Mo-Su 06:00-22:00",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/134421172"
+    },
+    {
+      "id": "way/137067433",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.6437911,
+      "longitude": 6.2202015,
+      "address": "40 Route de Trèves, 2633 Senningerberg",
+      "openingHours": "24/7",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/137067433"
+    },
+    {
+      "id": "way/164340879",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5995781,
+      "longitude": 6.1188609,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/164340879"
+    },
+    {
+      "id": "way/166354998",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.6825174,
+      "longitude": 6.448137,
+      "address": "91A Rue de Trèves, 6793 Grevenmacher",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        }
+      ],
+      "phone": "+352 759328-1",
+      "osmUrl": "https://www.openstreetmap.org/way/166354998"
+    },
+    {
+      "id": "way/195553869",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5095682,
+      "longitude": 6.1546724,
+      "address": "25 Munnereferstrooss, 3337 Hellange",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/195553869"
+    },
+    {
+      "id": "way/196797956",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.6174448,
+      "longitude": 6.0935045,
+      "address": "16 Route d'Arlon, 8008 Strassen",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/196797956"
+    },
+    {
+      "id": "way/280420438",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5273641,
+      "longitude": 5.89096,
+      "address": "70 Avenue de la Liberté, 4601 Niederkorn",
+      "openingHours": "Mo-Su 06:00-22:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 58 75 53",
+      "osmUrl": "https://www.openstreetmap.org/way/280420438"
+    },
+    {
+      "id": "way/339210552",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.6594325,
+      "longitude": 5.9277828,
+      "address": "105 Rue de Luxembourg, 8440 Steinfort",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/339210552"
+    },
+    {
+      "id": "way/388116315",
+      "name": "Esso",
+      "latitude": 49.5070438,
+      "longitude": 5.9584621,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/388116315"
+    },
+    {
+      "id": "way/662141131",
+      "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 50.1719279,
+      "longitude": 6.0251652,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/662141131"
+    },
+    {
+      "id": "way/313982116",
+      "name": "Esso Aire de Wasserbillig",
+      "latitude": 49.7271047,
+      "longitude": 6.4917935,
+      "openingHours": "24/7",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/313982116"
+    },
+    {
+      "id": "node/3662627658",
+      "name": "Esso Allerborn",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 50.0364534,
+      "longitude": 5.8868267,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "LPG"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/3662627658"
+    },
+    {
+      "id": "way/388116314",
+      "name": "Esso Charles de Gaulle",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5068792,
+      "longitude": 5.9587186,
+      "address": "306 Boulevard Charles de Gaulle, 4083 Esch-sur-Alzette",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/388116314"
+    },
+    {
+      "id": "node/1072256134",
+      "name": "Esso EG 1",
+      "brand": "Texaco",
+      "latitude": 49.5492506,
+      "longitude": 5.8332446,
+      "address": "158A Route de Longwy, 8431 Rodange",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1072256134"
+    },
+    {
+      "id": "way/679839575",
+      "name": "Esso EG 2",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.5436677,
+      "longitude": 5.820053,
+      "address": "455 Route de Longwy, 8432 Rodange",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/679839575"
+    },
+    {
+      "id": "node/12075643210",
+      "name": "Esso Martelange",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.8277969,
+      "longitude": 5.7463345,
+      "address": "20 Route d'Arlon, 8832 Rombach-Martelange",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.esso.lu/fr-lu/find-station/esso-rombach-martelange-essomartelange-100360126",
+      "osmUrl": "https://www.openstreetmap.org/node/12075643210"
+    },
+    {
+      "id": "way/316698222",
+      "name": "Esso Mersch",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.7475655,
+      "longitude": 6.1108524,
+      "address": "4 Rue de Luxembourg, 7540 Rollingen",
+      "openingHours": "Mo-Sa 06:.-22:00; Su, PH 08:00-20:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/316698222"
+    },
+    {
+      "id": "node/1649345719",
+      "name": "ESSO Rosport",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.8042071,
+      "longitude": 6.5057248,
+      "address": "16 Rue du Barrage, 6581 Rosport",
+      "openingHours": "08:00-21:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        }
+      ],
+      "phone": "+352 730089",
+      "osmUrl": "https://www.openstreetmap.org/node/1649345719"
+    },
+    {
+      "id": "way/764678499",
+      "name": "Esso Terre Rouge",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.4890396,
+      "longitude": 5.9763583,
+      "address": "59 Rue d'Audun, 4018 Esch-sur-Alzette",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/764678499"
+    },
+    {
+      "id": "node/1083528369",
+      "name": "Fuel station",
+      "latitude": 49.522126,
+      "longitude": 6.0074142,
+      "openingHours": "Mo-Su 08:00-20:00",
+      "fuelTypes": [
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1083528369"
+    },
+    {
+      "id": "node/12258730867",
+      "name": "Fuel station",
+      "latitude": 49.507253,
+      "longitude": 5.9895283,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12258730867"
+    },
+    {
+      "id": "node/13649673144",
+      "name": "Fuel station",
+      "latitude": 49.8302163,
+      "longitude": 5.7448207,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/13649673144"
+    },
+    {
+      "id": "way/1296268445",
+      "name": "Fuel station",
+      "latitude": 49.5878626,
+      "longitude": 6.1379446,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/1296268445"
+    },
+    {
+      "id": "way/250526205",
+      "name": "Fuel station",
+      "latitude": 49.5115388,
+      "longitude": 6.001449,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/250526205"
+    },
+    {
+      "id": "node/1264036516",
+      "name": "Goedert",
+      "latitude": 49.5076975,
+      "longitude": 6.1919538,
+      "address": "42 Robert-Schuman-Strooss, 5751 Frisange",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1264036516"
+    },
+    {
+      "id": "node/324058751",
+      "name": "Goedert",
+      "latitude": 49.5216958,
+      "longitude": 6.0105832,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/324058751"
+    },
+    {
+      "id": "node/729617914",
+      "name": "Goedert",
+      "latitude": 49.5977042,
+      "longitude": 6.1173429,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/729617914"
+    },
+    {
+      "id": "node/1290081904",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "latitude": 49.7084771,
+      "longitude": 6.488741,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1290081904"
+    },
+    {
+      "id": "node/1727795171",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 50.1435558,
+      "longitude": 6.0682011,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1727795171"
+    },
+    {
+      "id": "node/246774756",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 50.0059858,
+      "longitude": 6.0839565,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "LPG"
+      ],
+      "services": [
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/246774756"
+    },
+    {
+      "id": "node/4010906609",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 49.5110773,
+      "longitude": 5.9907083,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/4010906609"
+    },
+    {
+      "id": "node/686705457",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 49.4817353,
+      "longitude": 6.0429935,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/686705457"
+    },
+    {
+      "id": "node/9057839893",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 49.8376918,
+      "longitude": 6.0133133,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "phone": "+3522688251",
+      "website": "https://www.gulf.lu/de/tankstellen/mertzig/",
+      "osmUrl": "https://www.openstreetmap.org/node/9057839893"
+    },
+    {
+      "id": "way/1325268724",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 49.5223979,
+      "longitude": 5.9076864,
+      "openingHours": "Mo-Su 05:30-23:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 27 58 56 00",
+      "website": "https://www.gulf.lu/",
+      "osmUrl": "https://www.openstreetmap.org/way/1325268724"
+    },
+    {
+      "id": "way/512385979",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 49.7175826,
+      "longitude": 6.2683443,
+      "address": "1 Zone artisanale um Lënster Bierg, 6125 Junglinster",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/512385979"
+    },
+    {
+      "id": "way/718497119",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 49.8408571,
+      "longitude": 6.0987385,
+      "address": "41 Avenue des Alliés, 9012 Ettelbruck",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/718497119"
+    },
+    {
+      "id": "way/85151370",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 49.5719531,
+      "longitude": 5.921267,
+      "address": "226 Avenue de Luxembourg, 4940 Hautcharage",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+35226503214",
+      "osmUrl": "https://www.openstreetmap.org/way/85151370"
+    },
+    {
+      "id": "way/898508831",
+      "name": "Gulf",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 49.9690562,
+      "longitude": 5.9337376,
+      "address": "21 Rue du 10 septembre, 9560 Wiltz",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/898508831"
+    },
+    {
+      "id": "node/7271751613",
+      "name": "Gulf Martelange",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 49.8316696,
+      "longitude": 5.7436967,
+      "address": "11 Route d'Arlon, 8832 Rombach-Martelange",
+      "fuelTypes": [
+        "Super 95",
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 23 64 08 70",
+      "website": "https://www.gulf.lu/fr/tankstellen/martelange-2/",
+      "osmUrl": "https://www.openstreetmap.org/node/7271751613"
+    },
+    {
+      "id": "way/684809416",
+      "name": "Gulf Station Bleesbruck",
+      "brand": "Gulf",
+      "brandWikidata": "Q5617505",
+      "latitude": 49.8724885,
+      "longitude": 6.1893118,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/684809416"
+    },
+    {
+      "id": "node/2272874318",
+      "name": "IDS / Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.5115468,
+      "longitude": 6.001497,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/2272874318"
+    },
+    {
+      "id": "way/416437238",
+      "name": "Kehlen L0927",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.6619608,
+      "longitude": 6.01674,
+      "address": "23 Zone d'Activités Économiques Kehlen, 8287 Kehlen",
+      "openingHours": "24/7",
+      "fuelTypes": [],
+      "services": [],
+      "phone": "+352 33 82 97",
+      "website": "https://find.shell.com/lu/fuel/12839297-kehlen-l0927",
+      "osmUrl": "https://www.openstreetmap.org/way/416437238"
+    },
+    {
+      "id": "node/749361215",
+      "name": "Les Tigres",
+      "latitude": 49.4692633,
+      "longitude": 6.356117,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/749361215"
+    },
+    {
+      "id": "node/1067580020",
+      "name": "Lukoil",
+      "brand": "Lukoil",
+      "brandWikidata": "Q329347",
+      "latitude": 49.5426505,
+      "longitude": 5.8171037,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1067580020"
+    },
+    {
+      "id": "node/12075643205",
+      "name": "Lukoil Martelange",
+      "brand": "Lukoil",
+      "brandWikidata": "Q329347",
+      "latitude": 49.8291428,
+      "longitude": 5.7452608,
+      "address": "15 Route d'Arlon, 8832 Rombach-Martelange",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://lukoil.be/fr/OnsTankstation/Petrolstation?85",
+      "osmUrl": "https://www.openstreetmap.org/node/12075643205"
+    },
+    {
+      "id": "node/9241501994",
+      "name": "Lukoil Truck",
+      "brand": "Lukoil",
+      "brandWikidata": "Q329347",
+      "latitude": 49.5431667,
+      "longitude": 5.8177826,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/9241501994"
+    },
+    {
+      "id": "way/35795010",
+      "name": "LuxFuel",
+      "latitude": 49.634261,
+      "longitude": 6.2216125,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/35795010"
+    },
+    {
+      "id": "way/175081764",
+      "name": "LUXOIL",
+      "latitude": 49.7090294,
+      "longitude": 6.4892049,
+      "address": "61 Route de Wasserbillig, 6686 Mertert",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/175081764"
+    },
+    {
+      "id": "node/7271728292",
+      "name": "PC-Tank SARL Rombach-Martelange",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
+      "latitude": 49.8324448,
+      "longitude": 5.7421101,
+      "address": "7 Route d'Arlon, 8832 Rombach-Martelange",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.esso.lu/fr-lu/find-station/esso-rombach-martelange-pctanksarlrombachmartelange-100175258",
+      "osmUrl": "https://www.openstreetmap.org/node/7271728292"
+    },
+    {
+      "id": "node/12199727254",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.511149,
+      "longitude": 5.9328691,
+      "address": "65 Route d'Esch, 4450 Belvaux",
+      "openingHours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12199727254"
+    },
+    {
+      "id": "node/12468785852",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.4940195,
+      "longitude": 6.0847977,
+      "openingHours": "Mo-Su 06:30-22:30",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.q8.lu/stations/q8-dudelange",
+      "osmUrl": "https://www.openstreetmap.org/node/12468785852"
+    },
+    {
+      "id": "node/1290081907",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.7082121,
+      "longitude": 6.4882596,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1290081907"
+    },
+    {
+      "id": "node/1350561542",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.5045476,
+      "longitude": 6.2681667,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1350561542"
+    },
+    {
+      "id": "node/13668567353",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.6094151,
+      "longitude": 6.151295,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/13668567353"
+    },
+    {
+      "id": "node/1400931537",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.9634219,
+      "longitude": 5.8593197,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1400931537"
+    },
+    {
+      "id": "node/1400931700",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.9622882,
+      "longitude": 5.8587994,
+      "openingHours": "Mo-Su,PH 06:00-19:30",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 2695 0873",
+      "osmUrl": "https://www.openstreetmap.org/node/1400931700"
+    },
+    {
+      "id": "node/1402666278",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 50.0538192,
+      "longitude": 5.9147222,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1402666278"
+    },
+    {
+      "id": "node/1480020970",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.4660674,
+      "longitude": 6.0362419,
+      "address": "19 Rue de l'Usine, 3754 Rumelange",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1480020970"
+    },
+    {
+      "id": "node/1489508614",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.6363509,
+      "longitude": 5.9711743,
+      "openingHours": "24/7",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1489508614"
+    },
+    {
+      "id": "node/1614868734",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.8542046,
+      "longitude": 6.1334858,
+      "address": "36 Route d'Ettelbruck, 9160 Ingeldorf",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1614868734"
+    },
+    {
+      "id": "node/1778305700",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.4695887,
+      "longitude": 6.3590779,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1778305700"
+    },
+    {
+      "id": "node/2169297672",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.5105625,
+      "longitude": 6.1906074,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2169297672"
+    },
+    {
+      "id": "node/274635092",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.6566859,
+      "longitude": 6.0832602,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/274635092"
+    },
+    {
+      "id": "node/279699159",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.5423371,
+      "longitude": 5.8166932,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/279699159"
+    },
+    {
+      "id": "node/279699184",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.5419089,
+      "longitude": 5.815895,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/279699184"
+    },
+    {
+      "id": "node/305071013",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.8086016,
+      "longitude": 6.411485,
+      "address": "96 Route de Luxembourg, 6450 Echternach",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/305071013"
+    },
+    {
+      "id": "node/314173833",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 50.1819727,
+      "longitude": 6.0224214,
+      "address": "3 Op d'Schmëtt, 9964 Huldange",
+      "openingHours": "Mo-Sa 06:00-21:00; Su 07:00-21:00",
+      "fuelTypes": [
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/314173833"
+    },
+    {
+      "id": "node/4404156390",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.5671474,
+      "longitude": 6.0798614,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4404156390"
+    },
+    {
+      "id": "node/71246671",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.6058088,
+      "longitude": 6.1004037,
+      "openingHours": "Mo-Sa 06:00-22:00, Su 07:00-22:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/71246671"
+    },
+    {
+      "id": "node/9803194204",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.5816477,
+      "longitude": 5.9602204,
+      "address": "115 Route de Longwy, 4994 Schouweiler",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/9803194204"
+    },
+    {
+      "id": "way/117589658",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.6371149,
+      "longitude": 5.9718414,
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "LPG"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/117589658"
+    },
+    {
+      "id": "way/134508790",
+      "name": "Q8",
+      "latitude": 49.6015447,
+      "longitude": 6.0624188,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/134508790"
+    },
+    {
+      "id": "way/162457457",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 50.1256446,
+      "longitude": 6.0010492,
+      "address": "31B Rue de Wilwerdange, 9911 Troisvierges",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/162457457"
+    },
+    {
+      "id": "way/196797963",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.6180437,
+      "longitude": 6.0885687,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/196797963"
+    },
+    {
+      "id": "way/208158954",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.5926064,
+      "longitude": 6.1166103,
+      "address": "260 Route d'Esch, 1471 Luxembourg",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/208158954"
+    },
+    {
+      "id": "way/238035099",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.547296,
+      "longitude": 6.3612431,
+      "address": "13 Route de l'Europe, 5531 Remich",
+      "openingHours": "Mo-Sa 06:00-22:00; Su,PH 07:00-22:00",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/238035099"
+    },
+    {
+      "id": "way/333472141",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.5254255,
+      "longitude": 6.1010345,
+      "address": "130 Route de Luxembourg, 3254 Bettembourg",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/333472141"
+    },
+    {
+      "id": "way/480744267",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.7262771,
+      "longitude": 5.9869177,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.q8.lu/stations/q8-saeul",
+      "osmUrl": "https://www.openstreetmap.org/way/480744267"
+    },
+    {
+      "id": "way/570961945",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.5724998,
+      "longitude": 6.1589047,
+      "address": "468 Route de Thionville, 5886 Hesperange",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/570961945"
+    },
+    {
+      "id": "way/58880015",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.6286076,
+      "longitude": 6.131192,
+      "address": "2 Rue d'Eich, 1460 Luxembourg",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/58880015"
+    },
+    {
+      "id": "way/120512610",
+      "name": "Q8 Bereldange",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.6531498,
+      "longitude": 6.1277912,
+      "address": "91 Route de Luxembourg, 7240 Bereldange",
+      "openingHours": "Mo-Su 06:30-21:30",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 33 03 20",
+      "osmUrl": "https://www.openstreetmap.org/way/120512610"
+    },
+    {
+      "id": "node/1632258543",
+      "name": "Q8 Bollendorf-Pont",
+      "brand": "Q8",
+      "latitude": 49.8502819,
+      "longitude": 6.3585658,
+      "address": "19 Route de Diekirch, 6555 Bollendorf-Pont",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        }
+      ],
+      "website": "https://www.q8.lu/stations/q8-bollendorf-pont",
+      "osmUrl": "https://www.openstreetmap.org/node/1632258543"
+    },
+    {
+      "id": "way/960729074",
+      "name": "Q8 Huldange II",
+      "brand": "Q8",
+      "latitude": 50.1822586,
+      "longitude": 6.0228781,
+      "address": "18 Op d'Schmëtt, 9964 Huldange",
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.arsgroupe.lu/services/q8-huldange-ii/",
+      "osmUrl": "https://www.openstreetmap.org/way/960729074"
+    },
+    {
+      "id": "way/139089108",
+      "name": "Q8 Martelange I",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.8301747,
+      "longitude": 5.7446937,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/139089108"
+    },
+    {
+      "id": "node/13649673143",
+      "name": "Q8 Martelange II",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.8326463,
+      "longitude": 5.7416747,
+      "address": "6 Route d'Arlon, 8832 Rombach-Martelange",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.q8.lu/stations/q8-martelange-ii",
+      "osmUrl": "https://www.openstreetmap.org/node/13649673143"
+    },
+    {
+      "id": "way/158932301",
+      "name": "Q8 Shop Vinandy",
+      "brand": "Q8",
+      "brandWikidata": "Q1634762",
+      "latitude": 49.932569,
+      "longitude": 6.2194341,
+      "address": "11 Rue de la Frontière, 9412 Vianden",
+      "openingHours": "Mo-Fr 06:30-21:00; Sa,Su 07:30-21:00",
+      "fuelTypes": [
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 849361",
+      "osmUrl": "https://www.openstreetmap.org/way/158932301"
+    },
+    {
+      "id": "way/172855766",
+      "name": "Q8 Shop'n Go",
+      "brand": "Q8",
+      "latitude": 49.6590501,
+      "longitude": 5.9070969,
+      "address": "46 Route d'Arlon, 8410 Steinfort",
+      "fuelTypes": [
+        "Super 95",
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 39 50 80",
+      "osmUrl": "https://www.openstreetmap.org/way/172855766"
+    },
+    {
+      "id": "node/12075643209",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.8286521,
+      "longitude": 5.7457329,
+      "address": "17 Route d'Arlon, 8832 Rombach-Martelange",
+      "openingHours": "Mo-Su 06:00-21:30",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 23 64 04 24",
+      "website": "https://find.shell.com/lu/fuel/10030299-rombach-martelange-l07632/fr_LU",
+      "osmUrl": "https://www.openstreetmap.org/node/12075643209"
+    },
+    {
+      "id": "node/1290081910",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.709807,
+      "longitude": 6.4909837,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1290081910"
+    },
+    {
+      "id": "node/13505937082",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 50.1048184,
+      "longitude": 5.9212561,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/13505937082"
+    },
+    {
+      "id": "node/13649673141",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.8313252,
+      "longitude": 5.7441066,
+      "address": "12 Route d'Arlon, 8832 Rombach-Martelange",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 23 64 05 09",
+      "website": "https://find.shell.com/lu/fuel/10030288-rombach-martelange-l07536/fr_LU",
+      "osmUrl": "https://www.openstreetmap.org/node/13649673141"
+    },
+    {
+      "id": "node/13917679541",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.4795615,
+      "longitude": 6.3656003,
+      "address": "1 Schengerwis, 5439 Remerschen",
+      "fuelTypes": [
+        "LPG"
+      ],
+      "services": [],
+      "phone": "+352 26 66 53 29",
+      "osmUrl": "https://www.openstreetmap.org/node/13917679541"
+    },
+    {
+      "id": "node/1480022470",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.4591056,
+      "longitude": 6.0315432,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1480022470"
+    },
+    {
+      "id": "node/1687636683",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.7253003,
+      "longitude": 5.8403296,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1687636683"
+    },
+    {
+      "id": "node/2169297404",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.511461,
+      "longitude": 6.1902641,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/2169297404"
+    },
+    {
+      "id": "node/246774124",
+      "name": "Shell",
+      "latitude": 49.9857415,
+      "longitude": 6.0881068,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/246774124"
+    },
+    {
+      "id": "node/252160470",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q154950",
+      "latitude": 50.1559631,
+      "longitude": 6.0509349,
+      "address": "10 Op der Haart, 9999 Wemperhardt",
+      "openingHours": "Mo-Sa 06:00-21:30; Su 06:30-21:30",
+      "fuelTypes": [
+        "Super 95 E10",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/252160470"
+    },
+    {
+      "id": "node/266179815",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.5559703,
+      "longitude": 5.8745972,
+      "address": "13 Route de Longwy, 4750 Pétange",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/266179815"
+    },
+    {
+      "id": "node/270800740",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.5212529,
+      "longitude": 5.9104704,
+      "address": "181 Rue de Soleuvre, 4670 Differdange",
+      "openingHours": "Mo-Fr 06:00-21:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/270800740"
+    },
+    {
+      "id": "node/312977464",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.805451,
+      "longitude": 6.4048567,
+      "address": "119 Route de Luxembourg, 6562 Echternach",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/312977464"
+    },
+    {
+      "id": "node/353833346",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.5062018,
+      "longitude": 5.9887956,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/353833346"
+    },
+    {
+      "id": "node/7891191831",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.8176065,
+      "longitude": 6.0977996,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/7891191831"
+    },
+    {
+      "id": "node/924018980",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.6055335,
+      "longitude": 6.1008235,
+      "openingHours": "Mo-Fr 06:00-21:00; Sa 07:00-21:00; Su 08:00-20:00",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/924018980"
+    },
+    {
+      "id": "relation/16450977",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.5481185,
+      "longitude": 6.3595891,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/relation/16450977"
+    },
+    {
+      "id": "way/126353703",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.9611795,
+      "longitude": 5.8600288,
+      "address": "10 Bastnicherstrooss, 9638 Pommerloch",
+      "openingHours": "Mo-Fr 07:00-21:00; PH,Sa,Su 09:00-19:00",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/126353703"
+    },
+    {
+      "id": "way/164179316",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.623374,
+      "longitude": 6.1757936,
+      "address": "430 Rue de Neudorf, 2222 Luxembourg",
+      "openingHours": "Mo-Sa 07:00-21:30",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/164179316"
+    },
+    {
+      "id": "way/164340663",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.5990515,
+      "longitude": 6.124227,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/164340663"
+    },
+    {
+      "id": "way/172855782",
+      "name": "Shell",
+      "brand": "Shell",
+      "latitude": 49.6589694,
+      "longitude": 5.9047827,
+      "address": "58 Route d'Arlon, 8410 Steinfort",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        }
+      ],
+      "phone": "+352 39 52 28",
+      "osmUrl": "https://www.openstreetmap.org/way/172855782"
+    },
+    {
+      "id": "way/191643049",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.6040597,
+      "longitude": 6.0773155,
+      "address": "2 Route de Longwy, 8080 Bertrange",
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352450053",
+      "website": "https://find.shell.com/lu/fuel/10030277-helfent-bertrange-l07142",
+      "osmUrl": "https://www.openstreetmap.org/way/191643049"
+    },
+    {
+      "id": "way/208158953",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.5903733,
+      "longitude": 6.1162295,
+      "address": "306 Route d'Esch, 1471 Luxembourg",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/208158953"
+    },
+    {
+      "id": "way/280245068",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.5308486,
+      "longitude": 5.8918248,
+      "address": "130 Avenue de la Liberté, 4602 Niederkorn",
+      "openingHours": "Mo-Sa 06:00-22:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/280245068"
+    },
+    {
+      "id": "way/314006368",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 50.1436508,
+      "longitude": 6.0697649,
+      "openingHours": "00:00-24:00; Dec 25 off; Dec 26 off; Jan 1 off",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/314006368"
+    },
+    {
+      "id": "way/315249491",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q154950",
+      "latitude": 49.5431501,
+      "longitude": 5.8188176,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/315249491"
+    },
+    {
+      "id": "way/540515464",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.6328467,
+      "longitude": 6.1359024,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/540515464"
+    },
+    {
+      "id": "way/545734609",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.788636,
+      "longitude": 6.0970112,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/545734609"
+    },
+    {
+      "id": "way/705251236",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.6481352,
+      "longitude": 6.1273876,
+      "address": "289 Rue de Beggen, 1221 Luxembourg",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/705251236"
+    },
+    {
+      "id": "way/130532615",
+      "name": "Simon's Plaza Aral Tankstation",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.6795579,
+      "longitude": 6.3947047,
+      "address": "2 Op der Alkërrech, 6776 Grevenmacher",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/130532615"
+    },
+    {
+      "id": "node/14026685101",
+      "name": "Station Goedert Remich",
+      "latitude": 49.5474395,
+      "longitude": 6.3599307,
+      "address": "23 Route de l'Europe, 5531",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/14026685101"
+    },
+    {
+      "id": "way/237241515",
+      "name": "Station Kurek",
+      "brand": "Aral",
+      "latitude": 49.5500663,
+      "longitude": 5.8397227,
+      "address": "41 Route de Longwy, 4830 Rodange",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/237241515"
+    },
+    {
+      "id": "way/474519044",
+      "name": "Station Service Q8 SA",
+      "brand": "E.Leclerc",
+      "brandWikidata": "Q1273376",
+      "latitude": 50.0497417,
+      "longitude": 6.1256596,
+      "address": "1 Dosberbréck, 9839 Rodershausen",
+      "openingHours": "We-Mo 07:00-20:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "phone": "+352 26 92 05 91",
+      "osmUrl": "https://www.openstreetmap.org/way/474519044"
+    },
+    {
+      "id": "way/987133350",
+      "name": "Station Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5953722,
+      "longitude": 6.2134424,
+      "address": "4 Rue Daniel Grün, 5315 Contern",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/987133350"
+    },
+    {
+      "id": "node/13089118311",
+      "name": "Station-service Aral",
+      "latitude": 49.5500361,
+      "longitude": 5.8396447,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/13089118311"
+    },
+    {
+      "id": "node/1778065942",
+      "name": "Texaco",
+      "brand": "Texaco",
+      "brandWikidata": "Q775060",
+      "latitude": 49.6836575,
+      "longitude": 6.4484054,
+      "openingHours": "Mo-Sa 06:00-21:00, Sa 06:00-20:00, Su 08:00-20:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1778065942"
+    },
+    {
+      "id": "node/312975828",
+      "name": "Texaco",
+      "brand": "Texaco",
+      "brandWikidata": "Q775060",
+      "latitude": 49.8161958,
+      "longitude": 6.4147682,
+      "address": "1 Route de Diekirch, 6430 Echternach",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/312975828"
+    },
+    {
+      "id": "node/474487887",
+      "name": "Texaco",
+      "brand": "Texaco",
+      "brandWikidata": "Q775060",
+      "latitude": 49.6044903,
+      "longitude": 6.400918,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/474487887"
+    },
+    {
+      "id": "way/147581218",
+      "name": "Texaco",
+      "brand": "Texaco",
+      "brandWikidata": "Q775060",
+      "latitude": 49.5443311,
+      "longitude": 6.0401714,
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/147581218"
+    },
+    {
+      "id": "way/688177218",
+      "name": "TICE - Station service",
+      "latitude": 49.5055981,
+      "longitude": 5.9615341,
+      "fuelTypes": [
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/688177218"
+    },
+    {
+      "id": "node/1290081900",
+      "name": "Total",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.7097688,
+      "longitude": 6.4916865,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1290081900"
+    },
+    {
+      "id": "node/13649673140",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.8222603,
+      "longitude": 5.7462856,
+      "address": "24 Route d'Arlon, 8832 Rombach-Martelange",
+      "openingHours": "24/7",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/13649673140"
+    },
+    {
+      "id": "node/1400923505",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.975505,
+      "longitude": 5.8437254,
+      "openingHours": "24/7",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1400923505"
+    },
+    {
+      "id": "node/1400931548",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.9593169,
+      "longitude": 5.8599259,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1400931548"
+    },
+    {
+      "id": "node/1480022294",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.4583982,
+      "longitude": 6.0310651,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "LPG"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1480022294"
+    },
+    {
+      "id": "node/1480064027",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.4521065,
+      "longitude": 6.0262426,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1480064027"
+    },
+    {
+      "id": "node/1566898684",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.8505832,
+      "longitude": 6.1257714,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1566898684"
+    },
+    {
+      "id": "node/203144678",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5311578,
+      "longitude": 6.1232577,
+      "openingHours": "Mo-Fr 06:00-21:30; Sa 07:00-20:00",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 5194 5127",
+      "osmUrl": "https://www.openstreetmap.org/node/203144678"
+    },
+    {
+      "id": "node/246774758",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 50.0524638,
+      "longitude": 6.071686,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/246774758"
+    },
+    {
+      "id": "node/307938491",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 50.1703841,
+      "longitude": 6.0256794,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/307938491"
+    },
+    {
+      "id": "node/3664036638",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 50.0511428,
+      "longitude": 5.9089812,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/3664036638"
+    },
+    {
+      "id": "node/863204087",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.8094971,
+      "longitude": 6.4353465,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "LPG"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/863204087"
+    },
+    {
+      "id": "node/8771576282",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5153425,
+      "longitude": 6.0040069,
+      "fuelTypes": [
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/8771576282"
+    },
+    {
+      "id": "way/1015054176",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5485293,
+      "longitude": 6.0447442,
+      "openingHours": "24/7",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/1015054176"
+    },
+    {
+      "id": "way/238035098",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5475335,
+      "longitude": 6.3605165,
+      "address": "17 Route de l'Europe, 5531 Remich",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/238035098"
+    },
+    {
+      "id": "way/238035106",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5473091,
+      "longitude": 6.3635446,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/238035106"
+    },
+    {
+      "id": "way/522076547",
+      "name": "Total",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.481639,
+      "longitude": 6.3627732,
+      "address": "5 Schengerwis, 5439 Remerschen",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "vacuum",
+          "label": "Vacuum",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 27 68 98 70",
+      "osmUrl": "https://www.openstreetmap.org/way/522076547"
+    },
+    {
+      "id": "way/61960822",
+      "name": "Total",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.7072946,
+      "longitude": 6.1367844,
+      "address": "33 Route de Luxembourg, 7372 Lorentzweiler",
+      "fuelTypes": [
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/61960822"
+    },
+    {
+      "id": "way/93508674",
+      "name": "Total",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.8019887,
+      "longitude": 6.5072769,
+      "address": "19 Rue Neuve, 6581 Rosport",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/93508674"
+    },
+    {
+      "id": "way/313924657",
+      "name": "TOTAL Aire de Wasserbillig VL",
+      "brand": "Total",
+      "latitude": 49.7283294,
+      "longitude": 6.490832,
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/313924657"
+    },
+    {
+      "id": "node/265746893",
+      "name": "Total Bascharage",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.561616,
+      "longitude": 5.8973515,
+      "address": "2 Avenue de Luxembourg, 4940 Bascharage",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/265746893"
+    },
+    {
+      "id": "way/157004482",
+      "name": "Total Bonnevoie",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5910226,
+      "longitude": 6.1410139,
+      "address": "119 Route de Thionville, 2611 Luxembourg",
+      "openingHours": "Mo-Sa 07:00-21:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/157004482"
+    },
+    {
+      "id": "node/1350561657",
+      "name": "Total Dudelange",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.4639505,
+      "longitude": 6.0825256,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1350561657"
+    },
+    {
+      "id": "node/1350561482",
+      "name": "Total Esch-sur-Alzette",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5020444,
+      "longitude": 5.973702,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/1350561482"
+    },
+    {
+      "id": "way/162121939",
+      "name": "Total Luxembourg",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.6084846,
+      "longitude": 6.1506551,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/162121939"
+    },
+    {
+      "id": "node/1477559757",
+      "name": "Total Oberpallen 2",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.7289792,
+      "longitude": 5.8417808,
+      "address": "2 Arelerstrooss, 8552 Oberpallen",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://store.totalenergies.lu/fr_LU/NL000096",
+      "osmUrl": "https://www.openstreetmap.org/node/1477559757"
+    },
+    {
+      "id": "node/272498614",
+      "name": "Total Remich",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5472594,
+      "longitude": 6.3618458,
+      "address": "11 Route de l'Europe, 5531 Remich",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/272498614"
+    },
+    {
+      "id": "way/1012421927",
+      "name": "Total Rodange",
+      "brand": "Total",
+      "latitude": 49.5444805,
+      "longitude": 5.8207536,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/1012421927"
+    },
+    {
+      "id": "way/469122169",
+      "name": "Total Rodange",
+      "brand": "Total",
+      "latitude": 49.5442028,
+      "longitude": 5.8212811,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/way/469122169"
+    },
+    {
+      "id": "way/196797955",
+      "name": "Total Strassen",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.6171521,
+      "longitude": 6.0954096,
+      "address": "4 Route d'Arlon, 8008 Strassen",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/196797955"
+    },
+    {
+      "id": "node/1350561566",
+      "name": "TotalEnergies",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5082982,
+      "longitude": 6.1917366,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1350561566"
+    },
+    {
+      "id": "node/9120226159",
+      "name": "TotalEnergies",
+      "latitude": 49.4980895,
+      "longitude": 5.9457728,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/9120226159"
+    },
+    {
+      "id": "node/3830061916",
+      "name": "TotalEnergies Bertrange",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.6108936,
+      "longitude": 6.0719114,
+      "address": "28 Rue de l'Industrie, 8069 Bertrange",
+      "openingHours": "Mo-Su 05:30-22:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352 26311115",
+      "osmUrl": "https://www.openstreetmap.org/node/3830061916"
+    },
+    {
+      "id": "node/13649673138",
+      "name": "TotalEnergies Martelange 10",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.8320445,
+      "longitude": 5.7431756,
+      "address": "10 Route d'Arlon, 8832 Rombach-Martelange",
+      "openingHours": "24/7",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://store.totalenergies.lu/fr_LU/NL003005",
+      "osmUrl": "https://www.openstreetmap.org/node/13649673138"
+    },
+    {
+      "id": "way/235476539",
+      "name": "TotalEnergies Mersch",
+      "brand": "Total",
+      "brandWikidata": "Q154037",
+      "latitude": 49.7565642,
+      "longitude": 6.098919,
+      "fuelTypes": [
+        "Super 95",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/235476539"
+    },
+    {
+      "id": "node/428859235",
+      "name": "TotalEnergies Mondorf",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5046754,
+      "longitude": 6.2695971,
+      "address": "2 Route de Luxembourg, 5634 Mondorf-les-Bains",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/428859235"
+    },
+    {
+      "id": "node/1477560852",
+      "name": "TotalEnergies Oberpallen",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.7258936,
+      "longitude": 5.840076,
+      "fuelTypes": [
+        "Super 95",
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1477560852"
+    },
+    {
+      "id": "node/1686093050",
+      "name": "TotalEnergies Schengen 102",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.4695308,
+      "longitude": 6.3594587,
+      "address": "102 Wäistrooss, 5445 Schengen",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1686093050"
+    },
+    {
+      "id": "node/317953423",
+      "name": "TotalEnergies Schengen 76",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.4704156,
+      "longitude": 6.3634459,
+      "address": "76 Wäistrooss, 5445 Schengen",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/317953423"
+    },
+    {
+      "id": "way/172855771",
+      "name": "TotalEnergies Wandhaff",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.6467598,
+      "longitude": 5.9544485,
+      "address": "2 Rue des Trois Cantons, 8399 Windhof",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "vacuum",
+          "label": "Vacuum",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+352395270",
+      "osmUrl": "https://www.openstreetmap.org/way/172855771"
+    },
+    {
+      "id": "node/314161690",
+      "name": "TotalEnergies Wemperhardt",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 50.1565159,
+      "longitude": 6.0495884,
+      "address": "6 Op der Haart, 9999 Wemperhardt",
+      "openingHours": "Mo-Sa 06:00-20:00; Su, PH 08:00-18:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/314161690"
+    },
+    {
+      "id": "way/175081732",
+      "name": "Wolter's Discount Tankstelle",
+      "brand": "Independent",
+      "latitude": 49.7090824,
+      "longitude": 6.4896719,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/175081732"
+    },
+    {
+      "id": "way/175081760",
+      "name": "Wolter's Discount Tankstelle",
+      "latitude": 49.7063513,
+      "longitude": 6.4859905,
+      "openingHours": "Mo-Sa 06:30-22:00; Su 08:30-22:00",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/175081760"
+    },
+    {
+      "id": "way/322902483",
+      "name": "Wolter's Discount Tankstelle",
+      "latitude": 49.6764404,
+      "longitude": 6.4280219,
+      "openingHours": "Mo-Fr 06:00-22:00; Sa 07:00-22:00; Su 07:00-21:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/322902483"
+    }
+  ]
+}

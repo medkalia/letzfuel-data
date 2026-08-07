@@ -1,0 +1,45 @@
+name: Refresh station snapshot
+
+# Installed LetzFuel apps read stations.snapshot.json from this repository at
+# runtime, so republishing it weekly delivers OpenStreetMap improvements — new
+# opening hours, services and fuel types — without an app release.
+on:
+  schedule:
+    - cron: '17 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-stations
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # The generator uses only the Node standard library, so there is nothing
+      # to install.
+      - name: Regenerate from OpenStreetMap
+        run: node update-stations.mjs
+
+      - name: Publish if the data changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- stations.snapshot.json; then
+            echo "OpenStreetMap data is unchanged; nothing to publish."
+            exit 0
+          fi
+
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add stations.snapshot.json
+          git commit -m 'Refresh Luxembourg station snapshot from OpenStreetMap'
+          git push
