@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T05:44:36.889Z",
-  "osmTimestamp": "2026-08-10T05:43:11Z",
+  "generatedAt": "2026-08-17T04:59:21.805Z",
+  "osmTimestamp": "2026-08-17T04:57:03Z",
   "attribution": "© OpenStreetMap contributors",
   "licenseUrl": "https://www.openstreetmap.org/copyright",
   "stations": [
@@ -1002,6 +1002,26 @@
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/way/964095670"
+    },
+    {
+      "id": "node/12258730867",
+      "name": "ARAL",
+      "latitude": 49.507253,
+      "longitude": 5.9895283,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12258730867"
     },
     {
       "id": "relation/14282757",
@@ -2065,21 +2085,6 @@
       "osmUrl": "https://www.openstreetmap.org/node/1083528369"
     },
     {
-      "id": "node/12258730867",
-      "name": "Fuel station",
-      "latitude": 49.507253,
-      "longitude": 5.9895283,
-      "fuelTypes": [],
-      "services": [
-        {
-          "id": "evCharging",
-          "label": "EV charging",
-          "source": "nearby"
-        }
-      ],
-      "osmUrl": "https://www.openstreetmap.org/node/12258730867"
-    },
-    {
       "id": "node/13649673144",
       "name": "Fuel station",
       "latitude": 49.8302163,
@@ -2792,6 +2797,33 @@
       "osmUrl": "https://www.openstreetmap.org/node/1402666278"
     },
     {
+      "id": "node/14094660806",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.5253912,
+      "longitude": 6.1009245,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/14094660806"
+    },
+    {
       "id": "node/1480020970",
       "name": "Q8",
       "brand": "Q8",
@@ -3199,29 +3231,6 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/238035099"
-    },
-    {
-      "id": "way/333472141",
-      "name": "Q8",
-      "brand": "Q8",
-      "brandWikidata": "Q4119207",
-      "latitude": 49.5254255,
-      "longitude": 6.1010345,
-      "address": "130 Route de Luxembourg, 3254 Bettembourg",
-      "fuelTypes": [],
-      "services": [
-        {
-          "id": "air",
-          "label": "Air pump",
-          "source": "station"
-        },
-        {
-          "id": "evCharging",
-          "label": "EV charging",
-          "source": "nearby"
-        }
-      ],
-      "osmUrl": "https://www.openstreetmap.org/way/333472141"
     },
     {
       "id": "way/480744267",
@@ -3931,6 +3940,11 @@
         {
           "id": "shop",
           "label": "Shop",
+          "source": "station"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
           "source": "station"
         }
       ],
