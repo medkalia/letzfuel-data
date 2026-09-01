@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T04:59:21.805Z",
-  "osmTimestamp": "2026-08-17T04:57:03Z",
+  "generatedAt": "2026-09-01T14:40:22.971Z",
+  "osmTimestamp": "2026-09-01T14:38:59Z",
   "attribution": "© OpenStreetMap contributors",
   "licenseUrl": "https://www.openstreetmap.org/copyright",
   "stations": [
@@ -554,6 +554,32 @@
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/6940394130"
+    },
+    {
+      "id": "node/729617914",
+      "name": "Aral",
+      "brand": "Aral",
+      "brandWikidata": "Q565734",
+      "latitude": 49.5977042,
+      "longitude": 6.1173429,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/729617914"
     },
     {
       "id": "node/747317216",
@@ -2169,30 +2195,6 @@
       "osmUrl": "https://www.openstreetmap.org/node/324058751"
     },
     {
-      "id": "node/729617914",
-      "name": "Goedert",
-      "latitude": 49.5977042,
-      "longitude": 6.1173429,
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "carWash",
-          "label": "Car wash",
-          "source": "nearby"
-        },
-        {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
-        }
-      ],
-      "osmUrl": "https://www.openstreetmap.org/node/729617914"
-    },
-    {
       "id": "node/1290081904",
       "name": "Gulf",
       "brand": "Gulf",
@@ -2822,6 +2824,18 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/node/14094660806"
+    },
+    {
+      "id": "node/14130998788",
+      "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.512072,
+      "longitude": 5.9956969,
+      "address": "2 Rue Romain Fandel, 4149 Esch-sur-Alzette",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/14130998788"
     },
     {
       "id": "node/1480020970",
