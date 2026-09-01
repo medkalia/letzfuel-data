@@ -1,14 +1,27 @@
 import {mkdir, readFile, writeFile} from 'node:fs/promises';
+import {setTimeout as sleep} from 'node:timers/promises';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 
 // Overpass instances rate-limit and go down for maintenance regularly, which
-// would fail an unattended scheduled run. Try each in turn before giving up.
+// would fail an unattended scheduled run. Try each in turn, then come back
+// round after a pause: a mirror that answers 502/504 under load is usually
+// serving again a minute later, and the whole run is otherwise lost until the
+// next weekly schedule.
+//
+// Every mirror listed here has to carry the whole planet. A regional extract
+// answers 200 with an empty result for Luxembourg, which reads as a successful
+// query rather than as the wrong server.
 const OVERPASS_URLS = [
   'https://overpass-api.de/api/interpreter',
   'https://overpass.kumi.systems/api/interpreter',
-  'https://overpass.osm.ch/api/interpreter',
+  'https://overpass.private.coffee/api/interpreter',
 ];
+const OVERPASS_ROUNDS = 4;
+const OVERPASS_RETRY_DELAY_MS = 30_000;
+// The query asks Overpass for at most 180s of server time; allow for a queued
+// slot on top of that, but never let a hung connection stall the whole job.
+const OVERPASS_TIMEOUT_MS = 300_000;
 const OUTPUT_FILE = fileURLToPath(
   new URL('./stations.snapshot.json', import.meta.url),
 );
@@ -173,39 +186,65 @@ function deduplicate(stations) {
   return kept.sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id));
 }
 
+async function askOverpass(url) {
+  const response = await fetch(url, {
+    method: 'POST',
+    body: new URLSearchParams({data: query}),
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+      'User-Agent': 'LetzFuel station snapshot generator',
+    },
+    signal: AbortSignal.timeout(OVERPASS_TIMEOUT_MS),
+  });
+
+  if (!response.ok) {
+    throw new Error(`${response.status} ${response.statusText}`);
+  }
+
+  const payload = await response.json();
+  if (!Array.isArray(payload.elements) || payload.elements.length === 0) {
+    throw new Error('returned no elements');
+  }
+
+  return payload;
+}
+
 async function queryOverpass() {
-  const failures = [];
+  const failures = new Map();
 
-  for (const url of OVERPASS_URLS) {
-    try {
-      const response = await fetch(url, {
-        method: 'POST',
-        body: new URLSearchParams({data: query}),
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
-          'User-Agent': 'LetzFuel station snapshot generator',
-        },
-      });
-
-      if (!response.ok) {
-        throw new Error(`${response.status} ${response.statusText}`);
+  for (let round = 1; round <= OVERPASS_ROUNDS; round += 1) {
+    for (const url of OVERPASS_URLS) {
+      try {
+        const payload = await askOverpass(url);
+        console.log(`Queried ${url} on attempt ${round}.`);
+        return payload;
+      } catch (error) {
+        const reason = error instanceof Error ? error.message : String(error);
+        console.warn(`Overpass mirror ${url} failed on attempt ${round}: ${reason}`);
+        failures.set(url, reason);
       }
+    }
 
-      const payload = await response.json();
-      if (!Array.isArray(payload.elements) || payload.elements.length === 0) {
-        throw new Error('returned no elements');
-      }
-
-      console.log(`Queried ${url}`);
-      return payload;
-    } catch (error) {
-      const reason = error instanceof Error ? error.message : String(error);
-      console.warn(`Overpass mirror ${url} failed: ${reason}`);
-      failures.push(`${url}: ${reason}`);
+    if (round < OVERPASS_ROUNDS) {
+      // Back off further each round. The busiest mirror publishes a free slot
+      // within about half a minute, so waiting costs far less than failing.
+      const delay = OVERPASS_RETRY_DELAY_MS * round;
+      console.warn(
+        `Every Overpass mirror failed on attempt ${round}; retrying in ${
+          delay / 1000
+        }s.`,
+      );
+      await sleep(delay);
     }
   }
 
-  throw new Error(`Every Overpass mirror failed.\n${failures.join('\n')}`);
+  const detail = [...failures]
+    .map(([url, reason]) => `${url}: ${reason}`)
+    .join('\n');
+
+  throw new Error(
+    `Every Overpass mirror failed ${OVERPASS_ROUNDS} times.\n${detail}`,
+  );
 }
 
 async function main() {
