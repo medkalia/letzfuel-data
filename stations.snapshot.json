@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T14:40:22.971Z",
-  "osmTimestamp": "2026-09-01T14:38:59Z",
+  "generatedAt": "2026-09-07T09:22:22.720Z",
+  "osmTimestamp": "2026-09-07T09:20:51Z",
   "attribution": "© OpenStreetMap contributors",
   "licenseUrl": "https://www.openstreetmap.org/copyright",
   "stations": [
@@ -1692,6 +1692,7 @@
       "id": "way/117563684",
       "name": "Esso",
       "brand": "Esso",
+      "brandWikidata": "Q867662",
       "latitude": 49.480302,
       "longitude": 6.3644364,
       "address": "3 Schengerwis, 5439 Remerschen",
@@ -1819,6 +1820,16 @@
           "id": "shop",
           "label": "Shop",
           "source": "station"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
         }
       ],
       "phone": "+352 759328-1",
@@ -1912,6 +1923,8 @@
     {
       "id": "way/388116315",
       "name": "Esso",
+      "brand": "Esso",
+      "brandWikidata": "Q867662",
       "latitude": 49.5070438,
       "longitude": 5.9584621,
       "fuelTypes": [],
@@ -4191,6 +4204,7 @@
       "id": "way/237241515",
       "name": "Station Kurek",
       "brand": "Aral",
+      "brandWikidata": "Q565734",
       "latitude": 49.5500663,
       "longitude": 5.8397227,
       "address": "41 Route de Longwy, 4830 Rodange",
@@ -4982,6 +4996,7 @@
       "id": "way/1012421927",
       "name": "Total Rodange",
       "brand": "Total",
+      "brandWikidata": "Q154037",
       "latitude": 49.5444805,
       "longitude": 5.8207536,
       "fuelTypes": [],
@@ -4992,6 +5007,7 @@
       "id": "way/469122169",
       "name": "Total Rodange",
       "brand": "Total",
+      "brandWikidata": "Q154037",
       "latitude": 49.5442028,
       "longitude": 5.8212811,
       "fuelTypes": [],
@@ -5056,6 +5072,8 @@
     {
       "id": "node/9120226159",
       "name": "TotalEnergies",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
       "latitude": 49.4980895,
       "longitude": 5.9457728,
       "fuelTypes": [],
