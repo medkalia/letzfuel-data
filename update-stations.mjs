@@ -19,17 +19,46 @@ const OVERPASS_URLS = [
 ];
 const OVERPASS_ROUNDS = 4;
 const OVERPASS_RETRY_DELAY_MS = 30_000;
-// The query asks Overpass for at most 180s of server time; allow for a queued
+// The query asks Overpass for at most 600s of server time; allow for a queued
 // slot on top of that, but never let a hung connection stall the whole job.
-const OVERPASS_TIMEOUT_MS = 300_000;
+// Belgium alone is ~3,000 stations and takes over a minute of server time, so
+// the old 180s budget was not enough once it joined Luxembourg.
+const OVERPASS_TIMEOUT_MS = 900_000;
+// Two files from one run. LetzFuel 1.0 reads stations.snapshot.json and takes
+// every station in it that is not French for a Luxembourg one, so Belgian
+// stations there would each wear Luxembourg's regulated maximum. That file
+// stays Luxembourg-only and unstamped, exactly as 1.0 knows it; releases from
+// 1.1 on read the versioned file, which carries every country with its stamp.
 const OUTPUT_FILE = fileURLToPath(
+  new URL('./stations.v2.snapshot.json', import.meta.url),
+);
+const LEGACY_OUTPUT_FILE = fileURLToPath(
   new URL('./stations.snapshot.json', import.meta.url),
 );
 
-const query = `
-[out:json][timeout:180];
-area["ISO3166-1"="LU"][admin_level=2]->.luxembourg;
-nwr["amenity"="fuel"](area.luxembourg)->.stations;
+/**
+ * The countries whose station locations ship with the app.
+ *
+ * These are the two where LetzFuel shows a nationally regulated maximum price
+ * rather than a per-station one, so the map needs to know where the stations
+ * are before it can put a price on them. France and Germany are absent on
+ * purpose: their own feeds carry stations and prices together, so mirroring
+ * their locations here would only duplicate — and eventually contradict — what
+ * those feeds already say.
+ */
+const COUNTRIES = [
+  {code: 'LU', name: 'Luxembourg'},
+  {code: 'BE', name: 'Belgium'},
+];
+
+// One country at a time rather than one query for both: each is small enough
+// to finish inside an Overpass slot, and a mirror that gives up on Belgium no
+// longer takes Luxembourg down with it.
+function queryFor(countryCode) {
+  return `
+[out:json][timeout:600];
+area["ISO3166-1"="${countryCode}"][admin_level=2]->.country;
+nwr["amenity"="fuel"](area.country)->.stations;
 (
   .stations;
   nwr(around.stations:100)["amenity"~"^(car_wash|charging_station|atm|toilets|compressed_air|vacuum_cleaner|restaurant|fast_food)$"];
@@ -37,6 +66,7 @@ nwr["amenity"="fuel"](area.luxembourg)->.stations;
 );
 out center tags meta;
 `;
+}
 
 const fuelTags = [
   ['fuel:octane_95', 'Super 95'],
@@ -186,7 +216,7 @@ function deduplicate(stations) {
   return kept.sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id));
 }
 
-async function askOverpass(url) {
+async function askOverpass(url, query) {
   const response = await fetch(url, {
     method: 'POST',
     body: new URLSearchParams({data: query}),
@@ -209,18 +239,21 @@ async function askOverpass(url) {
   return payload;
 }
 
-async function queryOverpass() {
+async function queryOverpass(countryCode) {
+  const query = queryFor(countryCode);
   const failures = new Map();
 
   for (let round = 1; round <= OVERPASS_ROUNDS; round += 1) {
     for (const url of OVERPASS_URLS) {
       try {
-        const payload = await askOverpass(url);
-        console.log(`Queried ${url} on attempt ${round}.`);
+        const payload = await askOverpass(url, query);
+        console.log(`Queried ${url} for ${countryCode} on attempt ${round}.`);
         return payload;
       } catch (error) {
         const reason = error instanceof Error ? error.message : String(error);
-        console.warn(`Overpass mirror ${url} failed on attempt ${round}: ${reason}`);
+        console.warn(
+          `Overpass mirror ${url} failed for ${countryCode} on attempt ${round}: ${reason}`,
+        );
         failures.set(url, reason);
       }
     }
@@ -230,7 +263,7 @@ async function queryOverpass() {
       // within about half a minute, so waiting costs far less than failing.
       const delay = OVERPASS_RETRY_DELAY_MS * round;
       console.warn(
-        `Every Overpass mirror failed on attempt ${round}; retrying in ${
+        `Every Overpass mirror failed for ${countryCode} on attempt ${round}; retrying in ${
           delay / 1000
         }s.`,
       );
@@ -243,12 +276,11 @@ async function queryOverpass() {
     .join('\n');
 
   throw new Error(
-    `Every Overpass mirror failed ${OVERPASS_ROUNDS} times.\n${detail}`,
+    `Every Overpass mirror failed ${OVERPASS_ROUNDS} times for ${countryCode}.\n${detail}`,
   );
 }
 
-async function main() {
-  const result = await queryOverpass();
+function stationsFrom(result, countryCode) {
   const elements = result.elements ?? [];
   const nearby = elements
     .filter(element => element.tags?.amenity !== 'fuel')
@@ -258,7 +290,7 @@ async function main() {
     }))
     .filter(item => item.coordinates && item.service);
 
-  const stations = elements
+  return elements
     .filter(element => element.tags?.amenity === 'fuel')
     .map(element => {
       const tags = element.tags ?? {};
@@ -291,6 +323,10 @@ async function main() {
           'Fuel station',
         brand: tags.brand || undefined,
         brandWikidata: tags['brand:wikidata'] || undefined,
+        // Stamped from the query that found it rather than inferred from the
+        // coordinates afterwards: Luxembourg and Belgium share a border and
+        // overlapping bounding boxes, so only the query knows which is which.
+        country: countryCode,
         latitude: position.latitude,
         longitude: position.longitude,
         address: address(tags),
@@ -305,23 +341,63 @@ async function main() {
       };
     })
     .filter(Boolean);
+}
 
-  const uniqueStations = deduplicate(stations);
-
-  // An Overpass mirror can answer 200 with a truncated result. Publishing that
-  // unattended would silently delete stations from every installed app, so
-  // refuse to shrink the list dramatically without a human looking at it.
-  const previous = await readPreviousSnapshot();
-  if (previous && uniqueStations.length < previous.stations.length * 0.9) {
-    throw new Error(
-      `Refusing to write ${uniqueStations.length} stations over the previous ` +
-        `${previous.stations.length}. Re-run, or pass --force if the drop is real.`,
-    );
+/**
+ * Stations already published for a country.
+ *
+ * The first run that adds a country has nothing to compare against, and
+ * Luxembourg's own history predates the country stamp, so an unstamped
+ * snapshot counts as Luxembourg — which is what it was.
+ */
+function previousCountryCount(previous, countryCode) {
+  if (!previous) {
+    return 0;
   }
+
+  return previous.stations.filter(
+    station => (station.country ?? 'LU') === countryCode,
+  ).length;
+}
+
+async function main() {
+  const previous = await readPreviousSnapshot();
+  const collected = [];
+  let osmTimestamp = null;
+
+  for (const country of COUNTRIES) {
+    const result = await queryOverpass(country.code);
+    const stations = deduplicate(stationsFrom(result, country.code));
+
+    // An Overpass mirror can answer 200 with a truncated result. Publishing
+    // that unattended would silently delete stations from every installed
+    // app, so refuse to shrink a country dramatically without a human looking
+    // at it. Checked per country, so a good Luxembourg run cannot mask a
+    // half-empty Belgium.
+    const before = previousCountryCount(previous, country.code);
+    if (before && stations.length < before * 0.9) {
+      throw new Error(
+        `Refusing to write ${stations.length} ${country.name} stations over ` +
+          `the previous ${before}. Re-run, or pass --force if the drop is real.`,
+      );
+    }
+
+    // The oldest of the per-country runs: the snapshot is only as current as
+    // its least current part, and claiming otherwise would let the app treat
+    // a stale half as fresh.
+    const timestamp = result.osm3s?.timestamp_osm_base ?? null;
+    if (timestamp && (!osmTimestamp || timestamp < osmTimestamp)) {
+      osmTimestamp = timestamp;
+    }
+
+    collected.push({country, stations});
+  }
+
+  const uniqueStations = collected.flatMap(entry => entry.stations);
 
   const snapshot = {
     generatedAt: new Date().toISOString(),
-    osmTimestamp: result.osm3s?.timestamp_osm_base ?? null,
+    osmTimestamp,
     attribution: '© OpenStreetMap contributors',
     licenseUrl: 'https://www.openstreetmap.org/copyright',
     stations: uniqueStations,
@@ -330,7 +406,22 @@ async function main() {
   await mkdir(path.dirname(OUTPUT_FILE), {recursive: true});
   await writeFile(OUTPUT_FILE, `${JSON.stringify(snapshot, null, 2)}\n`);
   console.log(`Wrote ${uniqueStations.length} stations to ${OUTPUT_FILE}`);
-  reportCoverage(uniqueStations);
+
+  const legacyStations = uniqueStations
+    .filter(station => station.country === 'LU')
+    .map(({country: _country, ...station}) => station);
+  await writeFile(
+    LEGACY_OUTPUT_FILE,
+    `${JSON.stringify({...snapshot, stations: legacyStations}, null, 2)}\n`,
+  );
+  console.log(
+    `Wrote ${legacyStations.length} Luxembourg stations to ${LEGACY_OUTPUT_FILE}`,
+  );
+
+  for (const entry of collected) {
+    console.log(`${entry.country.name} (${entry.country.code}):`);
+    reportCoverage(entry.stations);
+  }
 }
 
 async function readPreviousSnapshot() {
@@ -338,17 +429,23 @@ async function readPreviousSnapshot() {
     return null;
   }
 
-  try {
-    return JSON.parse(await readFile(OUTPUT_FILE, 'utf8'));
-  } catch {
-    return null;
+  // Before the versioned file exists, the Luxembourg-only one is the history:
+  // it is unstamped, which previousCountryCount already reads as Luxembourg.
+  for (const file of [OUTPUT_FILE, LEGACY_OUTPUT_FILE]) {
+    try {
+      return JSON.parse(await readFile(file, 'utf8'));
+    } catch {
+      // Try the next one.
+    }
   }
+  return null;
 }
 
 /**
  * OpenStreetMap is the only free source that carries opening hours, services
- * and per-fuel availability for Luxembourg, and its coverage is uneven. Print
- * it on every run so a drop in quality is visible rather than silent.
+ * and per-fuel availability for Luxembourg and Belgium, and its coverage is
+ * uneven — noticeably more so across Belgium than across Luxembourg. Print it
+ * per country on every run so a drop in quality is visible rather than silent.
  */
 function reportCoverage(stations) {
   const share = predicate => {
@@ -358,6 +455,7 @@ function reportCoverage(stations) {
     )}%)`;
   };
 
+  console.log(`  stations:      ${stations.length}`);
   console.log(`  opening hours: ${share(station => station.openingHours)}`);
   console.log(`  fuel types:    ${share(station => station.fuelTypes.length)}`);
   console.log(`  services:      ${share(station => station.services.length)}`);

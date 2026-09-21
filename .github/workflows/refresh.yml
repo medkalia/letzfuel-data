@@ -1,8 +1,8 @@
 name: Refresh station snapshot
 
-# Installed LetzFuel apps read stations.snapshot.json from this repository at
-# runtime, so republishing it weekly delivers OpenStreetMap improvements — new
-# opening hours, services and fuel types — without an app release.
+# Installed LetzFuel apps read the snapshots from this repository at runtime,
+# so republishing them weekly delivers OpenStreetMap improvements — new opening
+# hours, services and fuel types — without an app release.
 on:
   schedule:
     - cron: '17 4 * * 1'
@@ -18,7 +18,9 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # One Overpass query per country, each allowed up to 15 minutes before the
+    # generator gives up on it.
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v7
 
@@ -34,13 +36,14 @@ jobs:
       - name: Publish if the data changed
         run: |
           set -euo pipefail
-          if git diff --quiet -- stations.snapshot.json; then
+          # Staged first so a file that did not exist before counts as a change.
+          git add stations.snapshot.json stations.v2.snapshot.json
+          if git diff --cached --quiet; then
             echo "OpenStreetMap data is unchanged; nothing to publish."
             exit 0
           fi
 
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add stations.snapshot.json
-          git commit -m 'Refresh Luxembourg station snapshot from OpenStreetMap'
+          git commit -m 'Refresh station snapshots from OpenStreetMap'
           git push
