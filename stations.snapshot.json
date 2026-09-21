@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T09:54:32.419Z",
-  "osmTimestamp": "2026-05-06T03:25:00Z",
+  "generatedAt": "2026-09-21T09:59:20.226Z",
+  "osmTimestamp": "2026-05-31T22:37:44Z",
   "attribution": "© OpenStreetMap contributors",
   "licenseUrl": "https://www.openstreetmap.org/copyright",
   "stations": [
@@ -1312,6 +1312,7 @@
       "brandWikidata": "Q867662",
       "latitude": 49.5418726,
       "longitude": 5.8166118,
+      "openingHours": "24/7",
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/1067580048"
@@ -3165,8 +3166,10 @@
     {
       "id": "way/333472141",
       "name": "Q8",
-      "latitude": 49.5254202,
-      "longitude": 6.1010365,
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
+      "latitude": 49.5254255,
+      "longitude": 6.1010345,
       "address": "130 Route de Luxembourg, 3254 Bettembourg",
       "fuelTypes": [],
       "services": [
@@ -3174,6 +3177,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/333472141"
@@ -3618,7 +3626,13 @@
         "Super 95 E10",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/node/252160470"
     },
     {
@@ -4009,7 +4023,7 @@
         {
           "id": "shop",
           "label": "Shop",
-          "source": "station"
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/540515464"
@@ -4712,6 +4726,11 @@
         "Diesel"
       ],
       "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
         {
           "id": "food",
           "label": "Food",
