@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T22:58:12.450Z",
-  "osmTimestamp": "2026-09-21T22:55:20Z",
+  "generatedAt": "2026-09-28T11:01:39.450Z",
+  "osmTimestamp": "2026-09-28T10:54:36Z",
   "attribution": "© OpenStreetMap contributors",
   "licenseUrl": "https://www.openstreetmap.org/copyright",
   "stations": [
@@ -15194,6 +15194,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/node/779079905"
@@ -16015,7 +16020,7 @@
           "source": "station"
         }
       ],
-      "website": "https://www.maes-oil.be/nl/tankstation/wilsele-esso/",
+      "website": "https://www.maesmobility.be/nl/tankstation/wilsele-esso/",
       "osmUrl": "https://www.openstreetmap.org/way/241763553"
     },
     {
@@ -23360,28 +23365,6 @@
       "osmUrl": "https://www.openstreetmap.org/node/6781331011"
     },
     {
-      "id": "node/6784745521",
-      "name": "Gabriëls",
-      "brand": "Gabriëls",
-      "country": "BE",
-      "latitude": 51.0347941,
-      "longitude": 5.5293383,
-      "address": "48 Weg naar Meeuwen, 3660 Opglabbeek",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
-        }
-      ],
-      "osmUrl": "https://www.openstreetmap.org/node/6784745521"
-    },
-    {
       "id": "node/6788061750",
       "name": "Gabriëls",
       "brand": "Gabriëls",
@@ -24905,6 +24888,30 @@
       "services": [],
       "website": "https://www.poweroil.be/nl/vind-een-tankstation/gabri%C3%ABls-massenhoven",
       "osmUrl": "https://www.openstreetmap.org/node/8000784761"
+    },
+    {
+      "id": "node/6784745521",
+      "name": "Gabriëls Oudsbergen",
+      "brand": "Gabriëls",
+      "brandWikidata": "Q127602028",
+      "country": "BE",
+      "latitude": 51.0347941,
+      "longitude": 5.5293383,
+      "address": "48A Weg naar Meeuwen, 3660 Opglabbeek",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.gabriels.be/nl/tankstation-vinden/gabriels-oudsbergen",
+      "osmUrl": "https://www.openstreetmap.org/node/6784745521"
     },
     {
       "id": "node/6888743956",
@@ -26455,7 +26462,7 @@
       "id": "way/599429109",
       "name": "Gulf",
       "brand": "Gulf",
-      "brandWikidata": "Q1296860",
+      "brandWikidata": "Q5617505",
       "country": "BE",
       "latitude": 51.0551688,
       "longitude": 5.5866539,
@@ -26531,6 +26538,17 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/1017367097"
+    },
+    {
+      "id": "node/14226249988",
+      "name": "Gulf Schepdaal",
+      "brand": "Gulf",
+      "country": "BE",
+      "latitude": 50.841846,
+      "longitude": 4.2149171,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/14226249988"
     },
     {
       "id": "node/5033056121",
@@ -31657,7 +31675,6 @@
       "address": "31 Rue de Beclines, 1435 Mont-Saint-Guibert",
       "openingHours": "24/7",
       "fuelTypes": [
-        "Super 95",
         "Super 95 E10",
         "Super 98",
         "Diesel"
@@ -45754,31 +45771,6 @@
       "osmUrl": "https://www.openstreetmap.org/node/2324441886"
     },
     {
-      "id": "node/234165856",
-      "name": "Shell",
-      "brand": "Shell",
-      "brandWikidata": "Q110716465",
-      "country": "BE",
-      "latitude": 50.9098738,
-      "longitude": 4.7129124,
-      "address": "149 Aarschotsesteenweg, 3012 Wilsele",
-      "fuelTypes": [
-        "Super 95",
-        "Super 95 E10",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "carWash",
-          "label": "Car wash",
-          "source": "nearby"
-        }
-      ],
-      "website": "https://www.maes-oil.be/nl/tankstation/wilsele-shell/",
-      "osmUrl": "https://www.openstreetmap.org/node/234165856"
-    },
-    {
       "id": "node/2368119974",
       "name": "Shell",
       "brand": "Shell",
@@ -47929,6 +47921,31 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/node/2241297432"
+    },
+    {
+      "id": "node/234165856",
+      "name": "Shell Express",
+      "brand": "Shell Express",
+      "brandWikidata": "Q2289188",
+      "country": "BE",
+      "latitude": 50.9098738,
+      "longitude": 4.7129124,
+      "address": "149 Aarschotsesteenweg, 3012 Wilsele",
+      "fuelTypes": [
+        "Super 95",
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.maesmobility.be/nl/tankstation/wilsele-shell/",
+      "osmUrl": "https://www.openstreetmap.org/node/234165856"
     },
     {
       "id": "node/2404556784",
@@ -54338,11 +54355,11 @@
     {
       "id": "node/1738674419",
       "name": "Total",
-      "brand": "Total",
+      "brand": "TotalEnergies",
       "brandWikidata": "Q154037",
       "country": "BE",
-      "latitude": 50.5598829,
-      "longitude": 5.9630549,
+      "latitude": 50.5598876,
+      "longitude": 5.9630545,
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/1738674419"
@@ -62105,6 +62122,11 @@
         {
           "id": "shop",
           "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
           "source": "nearby"
         }
       ],
