@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T11:01:39.450Z",
-  "osmTimestamp": "2026-09-28T10:54:36Z",
+  "generatedAt": "2026-10-05T11:43:58.245Z",
+  "osmTimestamp": "2026-05-06T03:25:00Z",
   "attribution": "© OpenStreetMap contributors",
   "licenseUrl": "https://www.openstreetmap.org/copyright",
   "stations": [
@@ -160,11 +160,6 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
-        },
-        {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
         }
       ],
       "phone": "+352 39 79 70",
@@ -217,6 +212,11 @@
         {
           "id": "carWash",
           "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
           "source": "nearby"
         },
         {
@@ -483,11 +483,6 @@
           "source": "nearby"
         },
         {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
-        },
-        {
           "id": "carWash",
           "label": "Car wash",
           "source": "nearby"
@@ -578,33 +573,6 @@
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/6940394130"
-    },
-    {
-      "id": "node/729617914",
-      "name": "Aral",
-      "brand": "Aral",
-      "brandWikidata": "Q565734",
-      "country": "LU",
-      "latitude": 49.5977042,
-      "longitude": 6.1173429,
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "carWash",
-          "label": "Car wash",
-          "source": "nearby"
-        },
-        {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
-        }
-      ],
-      "osmUrl": "https://www.openstreetmap.org/node/729617914"
     },
     {
       "id": "node/747317216",
@@ -726,7 +694,7 @@
       "latitude": 49.5208462,
       "longitude": 5.9105896,
       "address": "182 Rue de Soleuvre, 4670 Differdange",
-      "openingHours": "Mo-Fr 06:00-22:00; Sa,Su 07:00-22:00",
+      "openingHours": "Mo-Sa 05:30-22:00; Su 07:00-22:00",
       "fuelTypes": [
         "Super 95",
         "Super 98",
@@ -1073,27 +1041,6 @@
       "osmUrl": "https://www.openstreetmap.org/way/964095670"
     },
     {
-      "id": "node/12258730867",
-      "name": "ARAL",
-      "country": "LU",
-      "latitude": 49.507253,
-      "longitude": 5.9895283,
-      "fuelTypes": [],
-      "services": [
-        {
-          "id": "air",
-          "label": "Air pump",
-          "source": "station"
-        },
-        {
-          "id": "evCharging",
-          "label": "EV charging",
-          "source": "nearby"
-        }
-      ],
-      "osmUrl": "https://www.openstreetmap.org/node/12258730867"
-    },
-    {
       "id": "relation/14282757",
       "name": "Aral Mertert",
       "brand": "Aral",
@@ -1423,7 +1370,6 @@
       "country": "LU",
       "latitude": 49.5418726,
       "longitude": 5.8166118,
-      "openingHours": "24/7",
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/1067580048"
@@ -1622,26 +1568,12 @@
     {
       "id": "node/303717534",
       "name": "Esso",
-      "brand": "Esso",
-      "brandWikidata": "Q867662",
       "country": "LU",
       "latitude": 49.7080699,
       "longitude": 6.4886508,
       "address": "30 Route de Wasserbillig, 6686 Mertert",
-      "openingHours": "Mo-Sa 05:30-22:00; Su 07:00-22:00",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "toilets",
-          "label": "Toilets",
-          "source": "station"
-        }
-      ],
-      "phone": "+352 74 03 48",
+      "fuelTypes": [],
+      "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/303717534"
     },
     {
@@ -1710,7 +1642,6 @@
       "latitude": 49.7899332,
       "longitude": 6.2194177,
       "address": "35 Rue de Medernach, 7619 Larochette",
-      "openingHours": "Mo-Su 06:00-22:00",
       "fuelTypes": [
         "Super 95",
         "Super 98",
@@ -1733,7 +1664,6 @@
           "source": "nearby"
         }
       ],
-      "website": "https://www.esso.lu/fr-lu/find-station/esso-larochette-essolarochette-100338209",
       "osmUrl": "https://www.openstreetmap.org/node/983576537"
     },
     {
@@ -1764,7 +1694,6 @@
       "id": "way/117563684",
       "name": "Esso",
       "brand": "Esso",
-      "brandWikidata": "Q867662",
       "country": "LU",
       "latitude": 49.480302,
       "longitude": 6.3644364,
@@ -1898,16 +1827,6 @@
           "id": "shop",
           "label": "Shop",
           "source": "station"
-        },
-        {
-          "id": "toilets",
-          "label": "Toilets",
-          "source": "nearby"
-        },
-        {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
         }
       ],
       "phone": "+352 759328-1",
@@ -2005,8 +1924,6 @@
     {
       "id": "way/388116315",
       "name": "Esso",
-      "brand": "Esso",
-      "brandWikidata": "Q867662",
       "country": "LU",
       "latitude": 49.5070438,
       "longitude": 5.9584621,
@@ -2030,11 +1947,6 @@
       "longitude": 6.0251652,
       "fuelTypes": [],
       "services": [
-        {
-          "id": "air",
-          "label": "Air pump",
-          "source": "station"
-        },
         {
           "id": "food",
           "label": "Food",
@@ -2218,6 +2130,22 @@
       "osmUrl": "https://www.openstreetmap.org/node/1083528369"
     },
     {
+      "id": "node/12258730867",
+      "name": "Fuel station",
+      "country": "LU",
+      "latitude": 49.507253,
+      "longitude": 5.9895283,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12258730867"
+    },
+    {
       "id": "node/13649673144",
       "name": "Fuel station",
       "country": "LU",
@@ -2305,6 +2233,31 @@
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/324058751"
+    },
+    {
+      "id": "node/729617914",
+      "name": "Goedert",
+      "country": "LU",
+      "latitude": 49.5977042,
+      "longitude": 6.1173429,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/729617914"
     },
     {
       "id": "node/1290081904",
@@ -2826,8 +2779,6 @@
     {
       "id": "node/1290081907",
       "name": "Q8",
-      "brand": "Q8",
-      "brandWikidata": "Q4119207",
       "country": "LU",
       "latitude": 49.7082121,
       "longitude": 6.4882596,
@@ -2939,47 +2890,6 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/node/1402666278"
-    },
-    {
-      "id": "node/14094660806",
-      "name": "Q8",
-      "brand": "Q8",
-      "brandWikidata": "Q4119207",
-      "country": "LU",
-      "latitude": 49.5253912,
-      "longitude": 6.1009245,
-      "fuelTypes": [],
-      "services": [
-        {
-          "id": "air",
-          "label": "Air pump",
-          "source": "station"
-        },
-        {
-          "id": "evCharging",
-          "label": "EV charging",
-          "source": "nearby"
-        },
-        {
-          "id": "shop",
-          "label": "Shop",
-          "source": "nearby"
-        }
-      ],
-      "osmUrl": "https://www.openstreetmap.org/node/14094660806"
-    },
-    {
-      "id": "node/14130998788",
-      "name": "Q8",
-      "brand": "Q8",
-      "brandWikidata": "Q4119207",
-      "country": "LU",
-      "latitude": 49.512072,
-      "longitude": 5.9956969,
-      "address": "2 Rue Romain Fandel, 4149 Esch-sur-Alzette",
-      "fuelTypes": [],
-      "services": [],
-      "osmUrl": "https://www.openstreetmap.org/node/14130998788"
     },
     {
       "id": "node/1480020970",
@@ -3112,11 +3022,6 @@
         {
           "id": "evCharging",
           "label": "EV charging",
-          "source": "nearby"
-        },
-        {
-          "id": "atm",
-          "label": "ATM",
           "source": "nearby"
         }
       ],
@@ -3340,16 +3245,12 @@
       "id": "way/162457457",
       "name": "Q8",
       "brand": "Q8",
-      "brandWikidata": "Q4119207",
+      "brandWikidata": "Q1634762",
       "country": "LU",
       "latitude": 50.1256446,
       "longitude": 6.0010492,
       "address": "31B Rue de Wilwerdange, 9911 Troisvierges",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
+      "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/way/162457457"
     },
@@ -3408,6 +3309,23 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/238035099"
+    },
+    {
+      "id": "way/333472141",
+      "name": "Q8",
+      "country": "LU",
+      "latitude": 49.5254202,
+      "longitude": 6.1010365,
+      "address": "130 Route de Luxembourg, 3254 Bettembourg",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/333472141"
     },
     {
       "id": "way/480744267",
@@ -3669,11 +3587,6 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
-        },
-        {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
         }
       ],
       "phone": "+352 39 50 80",
@@ -3704,8 +3617,6 @@
     {
       "id": "node/1290081910",
       "name": "Shell",
-      "brand": "Shell",
-      "brandWikidata": "Q110716465",
       "country": "LU",
       "latitude": 49.709807,
       "longitude": 6.4909837,
@@ -3755,20 +3666,39 @@
       "osmUrl": "https://www.openstreetmap.org/node/13649673141"
     },
     {
-      "id": "node/13917679541",
+      "id": "node/1400931607",
       "name": "Shell",
       "brand": "Shell",
       "brandWikidata": "Q110716465",
       "country": "LU",
-      "latitude": 49.4795615,
-      "longitude": 6.3656003,
-      "address": "1 Schengerwis, 5439 Remerschen",
-      "fuelTypes": [
-        "LPG"
+      "latitude": 49.961165,
+      "longitude": 5.8600894,
+      "address": "10 Bastnicherstrooss, 9638 Pommerloch",
+      "openingHours": "Mo-Fr 07:00-21:00; PH,Sa,Su 09:00-19:00",
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
       ],
-      "services": [],
-      "phone": "+352 26 66 53 29",
-      "osmUrl": "https://www.openstreetmap.org/node/13917679541"
+      "osmUrl": "https://www.openstreetmap.org/node/1400931607"
     },
     {
       "id": "node/1480022470",
@@ -3857,13 +3787,7 @@
         "Super 95 E10",
         "Diesel"
       ],
-      "services": [
-        {
-          "id": "air",
-          "label": "Air pump",
-          "source": "station"
-        }
-      ],
+      "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/252160470"
     },
     {
@@ -3903,7 +3827,7 @@
       "latitude": 49.5212529,
       "longitude": 5.9104704,
       "address": "181 Rue de Soleuvre, 4670 Differdange",
-      "openingHours": "Mo-Fr 06:00-21:00",
+      "openingHours": "Mo-Su 06:00-21:00",
       "fuelTypes": [
         "Super 95",
         "Super 98",
@@ -4063,39 +3987,20 @@
       "osmUrl": "https://www.openstreetmap.org/relation/16450977"
     },
     {
-      "id": "way/126353703",
+      "id": "relation/16455941",
       "name": "Shell",
       "brand": "Shell",
       "brandWikidata": "Q110716465",
       "country": "LU",
-      "latitude": 49.9611795,
-      "longitude": 5.8600288,
-      "address": "10 Bastnicherstrooss, 9638 Pommerloch",
-      "openingHours": "Mo-Fr 07:00-21:00; PH,Sa,Su 09:00-19:00",
-      "fuelTypes": [],
-      "services": [
-        {
-          "id": "air",
-          "label": "Air pump",
-          "source": "station"
-        },
-        {
-          "id": "carWash",
-          "label": "Car wash",
-          "source": "nearby"
-        },
-        {
-          "id": "evCharging",
-          "label": "EV charging",
-          "source": "nearby"
-        },
-        {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
-        }
+      "latitude": 49.4796111,
+      "longitude": 6.3656335,
+      "address": "1 Schengerwis, 5439 Remerschen",
+      "fuelTypes": [
+        "LPG"
       ],
-      "osmUrl": "https://www.openstreetmap.org/way/126353703"
+      "services": [],
+      "phone": "+352 26 66 53 29",
+      "osmUrl": "https://www.openstreetmap.org/relation/16455941"
     },
     {
       "id": "way/164179316",
@@ -4148,11 +4053,6 @@
         {
           "id": "shop",
           "label": "Shop",
-          "source": "station"
-        },
-        {
-          "id": "air",
-          "label": "Air pump",
           "source": "station"
         }
       ],
@@ -4295,7 +4195,7 @@
         {
           "id": "shop",
           "label": "Shop",
-          "source": "nearby"
+          "source": "station"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/540515464"
@@ -4381,21 +4281,9 @@
       "osmUrl": "https://www.openstreetmap.org/way/130532615"
     },
     {
-      "id": "node/14026685101",
-      "name": "Station Goedert Remich",
-      "country": "LU",
-      "latitude": 49.5474395,
-      "longitude": 6.3599307,
-      "address": "23 Route de l'Europe, 5531",
-      "fuelTypes": [],
-      "services": [],
-      "osmUrl": "https://www.openstreetmap.org/node/14026685101"
-    },
-    {
       "id": "way/237241515",
       "name": "Station Kurek",
       "brand": "Aral",
-      "brandWikidata": "Q565734",
       "country": "LU",
       "latitude": 49.5500663,
       "longitude": 5.8397227,
@@ -4567,8 +4455,6 @@
     {
       "id": "node/1290081900",
       "name": "Total",
-      "brand": "TotalEnergies",
-      "brandWikidata": "Q154037",
       "country": "LU",
       "latitude": 49.7097688,
       "longitude": 6.4916865,
@@ -5046,11 +4932,6 @@
       ],
       "services": [
         {
-          "id": "air",
-          "label": "Air pump",
-          "source": "station"
-        },
-        {
           "id": "food",
           "label": "Food",
           "source": "nearby"
@@ -5223,7 +5104,6 @@
       "id": "way/1012421927",
       "name": "Total Rodange",
       "brand": "Total",
-      "brandWikidata": "Q154037",
       "country": "LU",
       "latitude": 49.5444805,
       "longitude": 5.8207536,
@@ -5235,7 +5115,6 @@
       "id": "way/469122169",
       "name": "Total Rodange",
       "brand": "Total",
-      "brandWikidata": "Q154037",
       "country": "LU",
       "latitude": 49.5442028,
       "longitude": 5.8212811,
@@ -5303,8 +5182,6 @@
     {
       "id": "node/9120226159",
       "name": "TotalEnergies",
-      "brand": "TotalEnergies",
-      "brandWikidata": "Q154037",
       "country": "LU",
       "latitude": 49.4980895,
       "longitude": 5.9457728,
@@ -10770,13 +10647,20 @@
       "latitude": 51.0864914,
       "longitude": 3.7251332,
       "address": "104 Wiedauwkaai, 9000 Gent",
+      "openingHours": "Mo-Su,PH 00:00-24:00",
       "fuelTypes": [
         "Super 95",
         "Super 98",
         "Diesel",
         "CNG"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
       "website": "https://customer.dats24.be/nl/station-zoeker#!/7081",
       "osmUrl": "https://www.openstreetmap.org/way/819328637"
     },
@@ -13737,33 +13621,6 @@
       "osmUrl": "https://www.openstreetmap.org/node/3262086222"
     },
     {
-      "id": "node/3302620395",
-      "name": "Esso",
-      "brand": "Esso",
-      "brandWikidata": "Q867662",
-      "country": "BE",
-      "latitude": 51.3154459,
-      "longitude": 5.0656747,
-      "address": "17 Schotelven, 2370 Arendonk",
-      "openingHours": "Mo-Fr 05:30 - 21:00; Sa,Su 07:00 - 20:00",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel",
-        "LPG"
-      ],
-      "services": [
-        {
-          "id": "shop",
-          "label": "Shop",
-          "source": "nearby"
-        }
-      ],
-      "phone": "+32 14 43 46 84",
-      "website": "https://www.maes-oil.be/nl/tankstation/arendonk-esso/",
-      "osmUrl": "https://www.openstreetmap.org/node/3302620395"
-    },
-    {
       "id": "node/348024574",
       "name": "Esso",
       "brand": "Esso",
@@ -14157,18 +14014,6 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/node/482034307"
-    },
-    {
-      "id": "node/483669357",
-      "name": "Esso",
-      "brand": "Esso",
-      "brandWikidata": "Q867662",
-      "country": "BE",
-      "latitude": 51.159771,
-      "longitude": 4.4583446,
-      "fuelTypes": [],
-      "services": [],
-      "osmUrl": "https://www.openstreetmap.org/node/483669357"
     },
     {
       "id": "node/4988644345",
@@ -14811,7 +14656,13 @@
         "Super 98",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
       "website": "https://www.maes-oil.be/nl/tankstation/torhout-esso/",
       "osmUrl": "https://www.openstreetmap.org/node/6814823016"
     },
@@ -17482,18 +17333,6 @@
       "osmUrl": "https://www.openstreetmap.org/node/146627973"
     },
     {
-      "id": "node/1493615675",
-      "name": "Esso Express",
-      "brand": "Esso Express",
-      "brandWikidata": "Q2350336",
-      "country": "BE",
-      "latitude": 51.3663908,
-      "longitude": 4.4670258,
-      "fuelTypes": [],
-      "services": [],
-      "osmUrl": "https://www.openstreetmap.org/node/1493615675"
-    },
-    {
       "id": "node/1637742224",
       "name": "Esso Express",
       "brand": "Esso Express",
@@ -18044,30 +17883,6 @@
       "services": [],
       "website": "https://www.brunoservicestation.be/nl/location/detail/56/bruno-service-station-maldegem",
       "osmUrl": "https://www.openstreetmap.org/node/5586217114"
-    },
-    {
-      "id": "node/561606317",
-      "name": "Esso Express",
-      "brand": "Esso Express",
-      "brandWikidata": "Q2350336",
-      "country": "BE",
-      "latitude": 51.126242,
-      "longitude": 4.5055525,
-      "address": "153 Liersesteenweg, 2547 Lint",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "shop",
-          "label": "Shop",
-          "source": "nearby"
-        }
-      ],
-      "website": "https://www.maes-oil.be/nl/tankstation/lint-esso/",
-      "osmUrl": "https://www.openstreetmap.org/node/561606317"
     },
     {
       "id": "node/5688434540",
@@ -19037,21 +18852,6 @@
       "osmUrl": "https://www.openstreetmap.org/way/369343545"
     },
     {
-      "id": "way/371415808",
-      "name": "Esso Express",
-      "brand": "Esso Express",
-      "brandWikidata": "Q2350336",
-      "country": "BE",
-      "latitude": 51.3060371,
-      "longitude": 4.5054173,
-      "address": "576 Bredabaan",
-      "openingHours": "24/7",
-      "fuelTypes": [],
-      "services": [],
-      "website": "https://www.esso.be/nl-be/find-station/brasschaat--expressbrasbredabaan-100175607",
-      "osmUrl": "https://www.openstreetmap.org/way/371415808"
-    },
-    {
       "id": "way/375368845",
       "name": "Esso Express",
       "brand": "Esso Express",
@@ -19073,25 +18873,6 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/375368845"
-    },
-    {
-      "id": "way/375998274",
-      "name": "Esso Express",
-      "brand": "Esso Express",
-      "brandWikidata": "Q2350336",
-      "country": "BE",
-      "latitude": 51.3007217,
-      "longitude": 4.5608256,
-      "address": "71 Eikenlei, 2960 Brecht",
-      "fuelTypes": [],
-      "services": [
-        {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
-        }
-      ],
-      "osmUrl": "https://www.openstreetmap.org/way/375998274"
     },
     {
       "id": "way/377061779",
@@ -21237,7 +21018,7 @@
       "name": "Fuel station",
       "country": "BE",
       "latitude": 51.1100842,
-      "longitude": 3.7644235,
+      "longitude": 3.7644175,
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/way/444829813"
@@ -31311,6 +31092,22 @@
       "osmUrl": "https://www.openstreetmap.org/node/13468629161"
     },
     {
+      "id": "node/1493615675",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 51.3663908,
+      "longitude": 4.4670258,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.maesmobility.be/nl/tankstation/kalmthout-maes/",
+      "osmUrl": "https://www.openstreetmap.org/node/1493615675"
+    },
+    {
       "id": "node/1605830779",
       "name": "Maes",
       "brand": "Maes",
@@ -31761,6 +31558,22 @@
       "osmUrl": "https://www.openstreetmap.org/node/4795794910"
     },
     {
+      "id": "node/483669357",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 51.159771,
+      "longitude": 4.4583446,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.maesmobility.be/nl/tankstation/maes-edegem/",
+      "osmUrl": "https://www.openstreetmap.org/node/483669357"
+    },
+    {
       "id": "node/5152484790",
       "name": "Maes",
       "brand": "Maes",
@@ -31788,6 +31601,29 @@
       "services": [],
       "website": "https://www.maes-oil.be/nl/tankstation/essen-maes",
       "osmUrl": "https://www.openstreetmap.org/node/5204595290"
+    },
+    {
+      "id": "node/561606317",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 51.126242,
+      "longitude": 4.5055525,
+      "address": "153 Liersesteenweg, 2547 Lint",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.maesmobility.be/nl/tankstation/lint-maes/",
+      "osmUrl": "https://www.openstreetmap.org/node/561606317"
     },
     {
       "id": "node/563919891",
@@ -32401,6 +32237,47 @@
       ],
       "website": "https://www.maes-oil.be/nl/tankstation/ekeren-maes",
       "osmUrl": "https://www.openstreetmap.org/way/370744319"
+    },
+    {
+      "id": "way/371415808",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 51.3060371,
+      "longitude": 4.5054173,
+      "address": "576 Bredabaan",
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.maesmobility.be/nl/tankstation/brasschaat-maes/",
+      "osmUrl": "https://www.openstreetmap.org/way/371415808"
+    },
+    {
+      "id": "way/375998274",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 51.3007219,
+      "longitude": 4.5608105,
+      "address": "71 Eikenlei, 2960 Brecht",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.maesmobility.be/nl/tankstation/sint-job-in-het-goor-maes/",
+      "osmUrl": "https://www.openstreetmap.org/way/375998274"
     },
     {
       "id": "way/385052490",
@@ -36434,10 +36311,15 @@
       "brand": "Q8",
       "brandWikidata": "Q1634762",
       "country": "BE",
-      "latitude": 51.2740067,
-      "longitude": 4.4177325,
+      "latitude": 51.2740017,
+      "longitude": 4.418025,
       "fuelTypes": [],
       "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
         {
           "id": "shop",
           "label": "Shop",
@@ -37378,6 +37260,11 @@
         {
           "id": "shop",
           "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
           "source": "nearby"
         }
       ],
@@ -39134,11 +39021,12 @@
       "brand": "Q8",
       "brandWikidata": "Q4119207",
       "country": "BE",
-      "latitude": 50.957963,
-      "longitude": 5.4392217,
+      "latitude": 50.9580681,
+      "longitude": 5.4392335,
       "address": "345 Hasseltweg, 3600 Genk",
       "fuelTypes": [],
       "services": [],
+      "website": "https://www.q8.be/nl/stations/q8-genk",
       "osmUrl": "https://www.openstreetmap.org/node/8531213119"
     },
     {
@@ -41871,8 +41759,14 @@
       "country": "BE",
       "latitude": 50.4800347,
       "longitude": 4.3497232,
+      "openingHours": "24/7",
       "fuelTypes": [],
       "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
         {
           "id": "shop",
           "label": "Shop",
@@ -45876,6 +45770,33 @@
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/317215516"
+    },
+    {
+      "id": "node/3302620395",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "country": "BE",
+      "latitude": 51.3154459,
+      "longitude": 5.0656747,
+      "address": "17 Schotelven, 2370 Arendonk",
+      "openingHours": "Mo-Fr 05:30 - 21:00; Sa,Su 07:00 - 20:00",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "LPG"
+      ],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+32 14 43 46 84",
+      "website": "https://www.maesmobility.be/nl/tankstation/shell-arendonk/",
+      "osmUrl": "https://www.openstreetmap.org/node/3302620395"
     },
     {
       "id": "node/3320584388",
@@ -58878,7 +58799,13 @@
         "Super 98",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/node/419684877"
     },
     {
@@ -61906,6 +61833,11 @@
       "fuelTypes": [],
       "services": [
         {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
           "id": "shop",
           "label": "Shop",
           "source": "nearby"
@@ -63591,6 +63523,11 @@
         {
           "id": "evCharging",
           "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
           "source": "nearby"
         }
       ],
