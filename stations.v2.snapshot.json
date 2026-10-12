@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T11:43:58.245Z",
-  "osmTimestamp": "2026-05-06T03:25:00Z",
+  "generatedAt": "2026-10-12T12:13:11.097Z",
+  "osmTimestamp": "2026-05-31T22:37:44Z",
   "attribution": "© OpenStreetMap contributors",
   "licenseUrl": "https://www.openstreetmap.org/copyright",
   "stations": [
@@ -1370,6 +1370,7 @@
       "country": "LU",
       "latitude": 49.5418726,
       "longitude": 5.8166118,
+      "openingHours": "24/7",
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/1067580048"
@@ -3313,9 +3314,11 @@
     {
       "id": "way/333472141",
       "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
       "country": "LU",
-      "latitude": 49.5254202,
-      "longitude": 6.1010365,
+      "latitude": 49.5254255,
+      "longitude": 6.1010345,
       "address": "130 Route de Luxembourg, 3254 Bettembourg",
       "fuelTypes": [],
       "services": [
@@ -3323,6 +3326,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/333472141"
@@ -3787,7 +3795,13 @@
         "Super 95 E10",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/node/252160470"
     },
     {
@@ -4195,7 +4209,7 @@
         {
           "id": "shop",
           "label": "Shop",
-          "source": "station"
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/540515464"
@@ -4931,6 +4945,11 @@
         "Diesel"
       ],
       "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
         {
           "id": "food",
           "label": "Food",
@@ -8304,7 +8323,7 @@
     {
       "id": "node/6931332078",
       "name": "Dats 24",
-      "brand": "Dats 24",
+      "brand": "DATS 24",
       "brandWikidata": "Q15725576",
       "country": "BE",
       "latitude": 51.3023496,
@@ -8324,7 +8343,7 @@
           "source": "nearby"
         }
       ],
-      "website": "https://customer.dats24.be/wps/portal/datscustomer/nl/b2c/locator#!/2034",
+      "website": "https://dats24.be/nl/particulier/sdp/tankstation-blankenberge_83",
       "osmUrl": "https://www.openstreetmap.org/node/6931332078"
     },
     {
@@ -13330,36 +13349,6 @@
       "osmUrl": "https://www.openstreetmap.org/node/255020556"
     },
     {
-      "id": "node/260451360",
-      "name": "Esso",
-      "brand": "Esso",
-      "brandWikidata": "Q867662",
-      "country": "BE",
-      "latitude": 51.0328349,
-      "longitude": 3.8041341,
-      "address": "1 Laarnebaan, 9070 Heusden",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
-        },
-        {
-          "id": "shop",
-          "label": "Shop",
-          "source": "nearby"
-        }
-      ],
-      "phone": "+32 78 48 03 14",
-      "website": "https://www.maes-oil.be/nl/tankstation/destelbergen-esso/",
-      "osmUrl": "https://www.openstreetmap.org/node/260451360"
-    },
-    {
       "id": "node/2661320899",
       "name": "Esso",
       "brand": "Esso",
@@ -13862,31 +13851,6 @@
       "phone": "+32 11 73 38 11",
       "website": "https://www.esso.be/nl-be/find-station/esso-wijchmaal-peer-bwessowijchmaal-100365383",
       "osmUrl": "https://www.openstreetmap.org/node/430102309"
-    },
-    {
-      "id": "node/4351003092",
-      "name": "Esso",
-      "brand": "Esso",
-      "brandWikidata": "Q867662",
-      "country": "BE",
-      "latitude": 51.2441668,
-      "longitude": 5.1115005,
-      "address": "67 Turnhoutsebaan, 2480 Dessel",
-      "fuelTypes": [
-        "Super 95",
-        "Super 95 E10",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "air",
-          "label": "Air pump",
-          "source": "station"
-        }
-      ],
-      "website": "https://www.maes-oil.be/nl/tankstation/dessel-esso/",
-      "osmUrl": "https://www.openstreetmap.org/node/4351003092"
     },
     {
       "id": "node/4395213697",
@@ -14434,31 +14398,6 @@
       "osmUrl": "https://www.openstreetmap.org/node/6774274360"
     },
     {
-      "id": "node/6775817798",
-      "name": "Esso",
-      "brand": "Esso",
-      "brandWikidata": "Q867662",
-      "country": "BE",
-      "latitude": 50.9182195,
-      "longitude": 3.5298801,
-      "address": "31 Deinsesteenweg, 9770 Kruishoutem",
-      "fuelTypes": [
-        "Super 95",
-        "Super 95 E10",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
-        }
-      ],
-      "website": "https://www.maes-oil.be/nl/tankstation/kruishoutem-esso/",
-      "osmUrl": "https://www.openstreetmap.org/node/6775817798"
-    },
-    {
       "id": "node/6780860561",
       "name": "Esso",
       "brand": "Esso",
@@ -14727,30 +14666,6 @@
       ],
       "website": "https://www.essofuelfinder.be/nl-be/oudenaarde-essooudenaarde-100175054",
       "osmUrl": "https://www.openstreetmap.org/node/6837558184"
-    },
-    {
-      "id": "node/6840452992",
-      "name": "Esso",
-      "brand": "Esso",
-      "brandWikidata": "Q867662",
-      "country": "BE",
-      "latitude": 50.933419,
-      "longitude": 3.1201348,
-      "address": "264 Meensesteenweg, 8800 Roeselare",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "air",
-          "label": "Air pump",
-          "source": "station"
-        }
-      ],
-      "website": "https://www.maes-oil.be/nl/tankstation/roeselare-esso/",
-      "osmUrl": "https://www.openstreetmap.org/node/6840452992"
     },
     {
       "id": "node/6866706257",
@@ -15303,8 +15218,8 @@
       "brand": "Esso",
       "brandWikidata": "Q867662",
       "country": "BE",
-      "latitude": 50.483002,
-      "longitude": 4.4478112,
+      "latitude": 50.4830467,
+      "longitude": 4.4477436,
       "address": "1 Rue Robesse, 6041 Gosselies",
       "fuelTypes": [
         "Super 95",
@@ -15317,6 +15232,11 @@
         {
           "id": "shop",
           "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
           "source": "nearby"
         },
         {
@@ -15955,25 +15875,6 @@
       "osmUrl": "https://www.openstreetmap.org/way/308525157"
     },
     {
-      "id": "way/326353925",
-      "name": "Esso",
-      "brand": "Esso",
-      "brandWikidata": "Q867662",
-      "country": "BE",
-      "latitude": 50.0512226,
-      "longitude": 4.3090956,
-      "address": "17 Chaussée de Mons, 6460 Chimay",
-      "fuelTypes": [
-        "Super 95",
-        "Super 95 E10",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [],
-      "website": "https://www.maes-oil.be/nl/tankstation/chimay-esso/",
-      "osmUrl": "https://www.openstreetmap.org/way/326353925"
-    },
-    {
       "id": "way/333817328",
       "name": "Esso",
       "brand": "Esso",
@@ -16080,24 +15981,6 @@
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/way/369141835"
-    },
-    {
-      "id": "way/422816658",
-      "name": "Esso",
-      "brand": "Esso",
-      "brandWikidata": "Q867662",
-      "country": "BE",
-      "latitude": 50.852453,
-      "longitude": 3.3471149,
-      "address": "91 Harelbekestraat, 8540 Deerlijk",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [],
-      "website": "https://www.maes-oil.be/nl/tankstation/deerlijk-esso/",
-      "osmUrl": "https://www.openstreetmap.org/way/422816658"
     },
     {
       "id": "way/431250083",
@@ -17551,24 +17434,6 @@
       "osmUrl": "https://www.openstreetmap.org/node/258076197"
     },
     {
-      "id": "node/267241657",
-      "name": "Esso Express",
-      "brand": "Esso Express",
-      "brandWikidata": "Q2350336",
-      "country": "BE",
-      "latitude": 50.5929953,
-      "longitude": 5.4579578,
-      "address": "12 Quai du Halage, 4400 Flémalle",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [],
-      "website": "https://www.maes-oil.be/nl/tankstation/flemalle-esso/",
-      "osmUrl": "https://www.openstreetmap.org/node/267241657"
-    },
-    {
       "id": "node/2736147137",
       "name": "Esso Express",
       "brand": "Esso Express",
@@ -17586,24 +17451,6 @@
       "phone": "+32 56 73 30 00",
       "website": "https://www.maes-oil.be/nl/tankstation/moeskroen-esso/",
       "osmUrl": "https://www.openstreetmap.org/node/2736147137"
-    },
-    {
-      "id": "node/288347844",
-      "name": "Esso Express",
-      "brand": "Esso Express",
-      "brandWikidata": "Q2350336",
-      "country": "BE",
-      "latitude": 51.1761948,
-      "longitude": 4.4596849,
-      "address": "214 Krijgsbaan, 2640 Mortsel",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [],
-      "website": "https://www.maes-oil.be/nl/tankstation/mortsel-esso-express/",
-      "osmUrl": "https://www.openstreetmap.org/node/288347844"
     },
     {
       "id": "node/321309898",
@@ -17729,30 +17576,6 @@
       "services": [],
       "website": "https://www.maes-oil.be/fr/station-service/bierges-esso/",
       "osmUrl": "https://www.openstreetmap.org/node/392817760"
-    },
-    {
-      "id": "node/392820944",
-      "name": "Esso Express",
-      "brand": "Esso Express",
-      "brandWikidata": "Q2350336",
-      "country": "BE",
-      "latitude": 50.7653,
-      "longitude": 4.4483113,
-      "address": "1 Terhulpsesteenweg, 1560 Hoeilaart",
-      "fuelTypes": [
-        "Super 95 E10",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "food",
-          "label": "Food",
-          "source": "nearby"
-        }
-      ],
-      "website": "https://www.maes-oil.be/nl/tankstation/hoeilaart-esso/",
-      "osmUrl": "https://www.openstreetmap.org/node/392820944"
     },
     {
       "id": "node/415507273",
@@ -18913,31 +18736,6 @@
       "osmUrl": "https://www.openstreetmap.org/way/408238923"
     },
     {
-      "id": "way/422818990",
-      "name": "Esso Express",
-      "brand": "Esso Express",
-      "brandWikidata": "Q2350336",
-      "country": "BE",
-      "latitude": 50.8473554,
-      "longitude": 3.3096173,
-      "address": "5 Heerbaan, 8530 Harelbeke",
-      "openingHours": "24/7",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "air",
-          "label": "Air pump",
-          "source": "station"
-        }
-      ],
-      "website": "https://www.maes-oil.be/nl/tankstation/harelbeke-esso/",
-      "osmUrl": "https://www.openstreetmap.org/way/422818990"
-    },
-    {
       "id": "way/422836943",
       "name": "Esso Express",
       "brand": "Esso Express",
@@ -19082,20 +18880,6 @@
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/way/731712467"
-    },
-    {
-      "id": "way/746066662",
-      "name": "Esso Express",
-      "brand": "Esso Express",
-      "brandWikidata": "Q2350336",
-      "country": "BE",
-      "latitude": 50.9942657,
-      "longitude": 5.2089329,
-      "address": "31 Molemstraat, 3560 Lummen",
-      "openingHours": "24/7",
-      "fuelTypes": [],
-      "services": [],
-      "osmUrl": "https://www.openstreetmap.org/way/746066662"
     },
     {
       "id": "way/758820440",
@@ -19700,6 +19484,16 @@
       ],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/1561429286"
+    },
+    {
+      "id": "node/480154354",
+      "name": "Euro Plus",
+      "country": "BE",
+      "latitude": 50.5659484,
+      "longitude": 4.0622589,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/480154354"
     },
     {
       "id": "node/9354014994",
@@ -20528,16 +20322,6 @@
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/4767757621"
-    },
-    {
-      "id": "node/480154354",
-      "name": "Fuel station",
-      "country": "BE",
-      "latitude": 50.5659484,
-      "longitude": 4.0622589,
-      "fuelTypes": [],
-      "services": [],
-      "osmUrl": "https://www.openstreetmap.org/node/480154354"
     },
     {
       "id": "node/5150063048",
@@ -22218,6 +22002,23 @@
       "osmUrl": "https://www.openstreetmap.org/node/1364813789"
     },
     {
+      "id": "node/14253400955",
+      "name": "Gabriëls",
+      "brand": "Gabriëls",
+      "brandWikidata": "Q127602028",
+      "country": "BE",
+      "latitude": 51.2769855,
+      "longitude": 4.5247827,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.gabriels.be/nl/tankstation-vinden/gabriels-schoten",
+      "osmUrl": "https://www.openstreetmap.org/node/14253400955"
+    },
+    {
       "id": "node/1454749331",
       "name": "Gabriëls",
       "brand": "Gabriëls",
@@ -23480,8 +23281,8 @@
     {
       "id": "node/6866316999",
       "name": "Gabriëls",
-      "brand": "Power",
-      "brandWikidata": "Q98380874",
+      "brand": "Gabriëls",
+      "brandWikidata": "Q127602028",
       "country": "BE",
       "latitude": 50.862625,
       "longitude": 3.323542,
@@ -23504,7 +23305,7 @@
           "source": "nearby"
         }
       ],
-      "website": "https://www.poweroil.be/nl/vind-een-tankstation/power-harelbeke",
+      "website": "https://www.gabriels.be/nl/tankstation-vinden/gabriels-harelbeke-ii",
       "osmUrl": "https://www.openstreetmap.org/node/6866316999"
     },
     {
@@ -26282,23 +26083,33 @@
       "osmUrl": "https://www.openstreetmap.org/way/818023065"
     },
     {
-      "id": "way/848040695",
+      "id": "way/835487314",
       "name": "Gulf",
       "brand": "Gulf",
       "brandWikidata": "Q5617505",
       "country": "BE",
-      "latitude": 50.9489119,
-      "longitude": 5.1213448,
-      "fuelTypes": [],
+      "latitude": 50.9623537,
+      "longitude": 5.0812372,
+      "address": "142 Staatsbaan, 3545 Halen",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
       "services": [
         {
-          "id": "carWash",
-          "label": "Car wash",
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
           "source": "nearby"
         }
       ],
-      "website": "https://www.gulf.be/",
-      "osmUrl": "https://www.openstreetmap.org/way/848040695"
+      "website": "https://www.gulf.be/NL/tankstations.php#limburg",
+      "osmUrl": "https://www.openstreetmap.org/way/835487314"
     },
     {
       "id": "way/1017367097",
@@ -26811,6 +26622,27 @@
       "services": [],
       "website": "https://carbu.com/belgie/index.php/station/interoil/opglabbeek/3660/774",
       "osmUrl": "https://www.openstreetmap.org/node/6784924576"
+    },
+    {
+      "id": "way/848040695",
+      "name": "Janssen",
+      "brand": "Janssen",
+      "country": "BE",
+      "latitude": 50.9489119,
+      "longitude": 5.1213448,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/848040695"
     },
     {
       "id": "node/2945354142",
@@ -30100,7 +29932,13 @@
       "latitude": 50.4503495,
       "longitude": 4.4335842,
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/251386447"
     },
     {
@@ -31310,6 +31148,35 @@
       "osmUrl": "https://www.openstreetmap.org/node/253665120"
     },
     {
+      "id": "node/260451360",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 51.0328349,
+      "longitude": 3.8041341,
+      "address": "1 Laarnebaan, 9070 Heusden",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "phone": "+32 78 48 03 14",
+      "website": "https://www.maesmobility.be/nl/tankstation/destelbergen-maes/",
+      "osmUrl": "https://www.openstreetmap.org/node/260451360"
+    },
+    {
       "id": "node/2630228956",
       "name": "Maes",
       "country": "BE",
@@ -31319,6 +31186,23 @@
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/2630228956"
+    },
+    {
+      "id": "node/267241657",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 50.5929953,
+      "longitude": 5.4579578,
+      "address": "12 Quai du Halage, 4400 Flémalle",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.maesmobility.be/fr/station-service/flemalle-maes/",
+      "osmUrl": "https://www.openstreetmap.org/node/267241657"
     },
     {
       "id": "node/278543768",
@@ -31510,6 +31394,29 @@
       "osmUrl": "https://www.openstreetmap.org/node/3755180751"
     },
     {
+      "id": "node/392820944",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 50.7653,
+      "longitude": 4.4483113,
+      "address": "1 Terhulpsesteenweg, 1560 Hoeilaart",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.maesmobility.be/nl/tankstation/hoeilaart-maes/",
+      "osmUrl": "https://www.openstreetmap.org/node/392820944"
+    },
+    {
       "id": "node/4088810437",
       "name": "Maes",
       "brand": "Maes",
@@ -31524,6 +31431,29 @@
       "services": [],
       "website": "https://www.maes-oil.be/nl/tankstation/schaarbeek-chazal-maes/",
       "osmUrl": "https://www.openstreetmap.org/node/4088810437"
+    },
+    {
+      "id": "node/4351003092",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 51.244131,
+      "longitude": 5.1113807,
+      "address": "67 Turnhoutsebaan, 2480 Dessel",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "website": "https://www.maesmobility.be/nl/tankstation/dessel-maes/",
+      "osmUrl": "https://www.openstreetmap.org/node/4351003092"
     },
     {
       "id": "node/4795794910",
@@ -31741,6 +31671,30 @@
       "osmUrl": "https://www.openstreetmap.org/node/6775773297"
     },
     {
+      "id": "node/6775817798",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 50.9182195,
+      "longitude": 3.5298801,
+      "address": "31 Deinsesteenweg, 9770 Kruishoutem",
+      "fuelTypes": [
+        "Super 95",
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.maesmobility.be/nl/tankstation/kruishoutem-maes/",
+      "osmUrl": "https://www.openstreetmap.org/node/6775817798"
+    },
+    {
       "id": "node/6780868402",
       "name": "Maes",
       "brand": "Maes",
@@ -31763,6 +31717,21 @@
       ],
       "website": "https://www.maes-oil.be/nl/tankstation/wuustwezel-maes",
       "osmUrl": "https://www.openstreetmap.org/node/6780868402"
+    },
+    {
+      "id": "node/6807656153",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 51.1725344,
+      "longitude": 4.4412461,
+      "address": "1 Minervastraat, 2640 Mortsel",
+      "fuelTypes": [
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.maesmobility.be/nl/tankstation/mortsel-maes/",
+      "osmUrl": "https://www.openstreetmap.org/node/6807656153"
     },
     {
       "id": "node/6810022876",
@@ -31837,6 +31806,29 @@
       "services": [],
       "website": "https://www.maes-oil.be/nl/tankstation/wortel-maes/",
       "osmUrl": "https://www.openstreetmap.org/node/6822599148"
+    },
+    {
+      "id": "node/6840452992",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 50.933419,
+      "longitude": 3.1201348,
+      "address": "264 Meensesteenweg, 8800 Roeselare",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "website": "https://www.maesmobility.be/nl/tankstation/roeselare-maes/",
+      "osmUrl": "https://www.openstreetmap.org/node/6840452992"
     },
     {
       "id": "node/6844819441",
@@ -32189,6 +32181,24 @@
       "osmUrl": "https://www.openstreetmap.org/way/220392809"
     },
     {
+      "id": "way/326353925",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 50.0512226,
+      "longitude": 4.3090956,
+      "address": "17 Chaussée de Mons, 6460 Chimay",
+      "fuelTypes": [
+        "Super 95",
+        "Super 95 E10",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.maes-oil.be/nl/tankstation/chimay-esso/",
+      "osmUrl": "https://www.openstreetmap.org/way/326353925"
+    },
+    {
       "id": "way/366997235",
       "name": "Maes",
       "brand": "MAES",
@@ -32315,6 +32325,47 @@
       "osmUrl": "https://www.openstreetmap.org/way/387161901"
     },
     {
+      "id": "way/422816658",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 50.852453,
+      "longitude": 3.3471149,
+      "address": "91 Harelbekestraat, 8540 Deerlijk",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.maesmobility.be/nl/tankstation/deerlijk-maes/",
+      "osmUrl": "https://www.openstreetmap.org/way/422816658"
+    },
+    {
+      "id": "way/422818990",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 50.8473554,
+      "longitude": 3.3096173,
+      "address": "5 Heerbaan, 8530 Harelbeke",
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "station"
+        }
+      ],
+      "website": "https://www.maesmobility.be/nl/tankstation/harelbeke-maes",
+      "osmUrl": "https://www.openstreetmap.org/way/422818990"
+    },
+    {
       "id": "way/521260877",
       "name": "Maes",
       "brand": "Maes",
@@ -32418,6 +32469,24 @@
       "services": [],
       "website": "https://www.maes-oil.be/nl/tankstation/sint-truiden-maes/",
       "osmUrl": "https://www.openstreetmap.org/way/704262398"
+    },
+    {
+      "id": "way/746066662",
+      "name": "Maes",
+      "brand": "Maes",
+      "country": "BE",
+      "latitude": 50.9942657,
+      "longitude": 5.2089329,
+      "address": "31 Molemstraat, 3560 Lummen",
+      "openingHours": "24/7",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.maesmobility.be/nl/tankstation/lummen-maes/",
+      "osmUrl": "https://www.openstreetmap.org/way/746066662"
     },
     {
       "id": "node/12518665901",
@@ -33179,21 +33248,6 @@
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/node/672346360"
-    },
-    {
-      "id": "node/6807656153",
-      "name": "Octa+",
-      "brand": "Octa+",
-      "country": "BE",
-      "latitude": 51.1725344,
-      "longitude": 4.4412461,
-      "address": "1 Minervastraat, 2640 Mortsel",
-      "fuelTypes": [
-        "Diesel"
-      ],
-      "services": [],
-      "website": "https://www.maes-oil.be/nl/tankstation/mortsel-octa/",
-      "osmUrl": "https://www.openstreetmap.org/node/6807656153"
     },
     {
       "id": "node/6989814491",
@@ -37800,7 +37854,7 @@
       "id": "node/559460886",
       "name": "Q8",
       "brand": "Q8",
-      "brandWikidata": "Q1634762",
+      "brandWikidata": "Q4119207",
       "country": "BE",
       "latitude": 50.9089859,
       "longitude": 4.6780252,
@@ -37815,6 +37869,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
         }
       ],
       "website": "https://www.q8.be/nl/stations/q8-herent-omleiding",
@@ -40128,18 +40187,28 @@
       "id": "way/251386263",
       "name": "Q8",
       "brand": "Q8",
-      "brandWikidata": "Q1634762",
+      "brandWikidata": "Q4119207",
       "country": "BE",
-      "latitude": 50.4507754,
-      "longitude": 4.4333283,
-      "fuelTypes": [],
+      "latitude": 50.4507573,
+      "longitude": 4.4333221,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
       "services": [
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
         {
           "id": "food",
           "label": "Food",
           "source": "nearby"
         }
       ],
+      "website": "https://www.q8.be/fr/stations/q8-charleroi-jumet",
       "osmUrl": "https://www.openstreetmap.org/way/251386263"
     },
     {
@@ -40298,18 +40367,6 @@
       "services": [],
       "website": "https://www.q8.be/nl/stations/q8-maaseik",
       "osmUrl": "https://www.openstreetmap.org/way/329545847"
-    },
-    {
-      "id": "way/335007261",
-      "name": "Q8",
-      "brand": "Q8",
-      "brandWikidata": "Q1634762",
-      "country": "BE",
-      "latitude": 51.2091435,
-      "longitude": 4.3356617,
-      "fuelTypes": [],
-      "services": [],
-      "osmUrl": "https://www.openstreetmap.org/way/335007261"
     },
     {
       "id": "way/372452570",
@@ -41256,7 +41313,7 @@
       "country": "BE",
       "latitude": 50.6515644,
       "longitude": 5.9983487,
-      "address": "916 Neutralstraße, 4710 Lontzen-Herbesthal",
+      "address": "916b Neutralstraße, 4710 Lontzen-Herbesthal",
       "openingHours": "24/7",
       "fuelTypes": [
         "Super 95",
@@ -43746,6 +43803,23 @@
       "services": [],
       "website": "https://www.q8.be/nl/stations/q8-easy-tremelo-diestsebaan",
       "osmUrl": "https://www.openstreetmap.org/way/310232669"
+    },
+    {
+      "id": "way/335007261",
+      "name": "Q8 Easy",
+      "brand": "Q8 Easy",
+      "brandWikidata": "Q1806948",
+      "country": "BE",
+      "latitude": 51.2091435,
+      "longitude": 4.3356617,
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.q8.be/nl/stations/q8-zwijndrecht-burcht",
+      "osmUrl": "https://www.openstreetmap.org/way/335007261"
     },
     {
       "id": "way/365837267",
@@ -46465,6 +46539,24 @@
       "osmUrl": "https://www.openstreetmap.org/way/1320339622"
     },
     {
+      "id": "way/1565291729",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "country": "BE",
+      "latitude": 50.750123,
+      "longitude": 3.1848859,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/1565291729"
+    },
+    {
       "id": "way/203449846",
       "name": "Shell",
       "brand": "Shell",
@@ -46666,6 +46758,11 @@
         {
           "id": "carWash",
           "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
           "source": "nearby"
         },
         {
@@ -47462,11 +47559,20 @@
       "latitude": 50.865423,
       "longitude": 4.7472489,
       "address": "1 Vlinderlaan, 3360",
-      "fuelTypes": [],
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
       "services": [
         {
           "id": "food",
           "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
           "source": "nearby"
         }
       ],
@@ -48090,6 +48196,24 @@
       ],
       "website": "https://www.maes-oil.be/nl/tankstation/bouwel-shell/",
       "osmUrl": "https://www.openstreetmap.org/node/278243225"
+    },
+    {
+      "id": "node/288347844",
+      "name": "Shell Express",
+      "brand": "Shell Express",
+      "brandWikidata": "Q2289188",
+      "country": "BE",
+      "latitude": 51.1761948,
+      "longitude": 4.4596849,
+      "address": "214 Krijgsbaan, 2640 Mortsel",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.maesmobility.be/nl/tankstation/shell-mortsel/",
+      "osmUrl": "https://www.openstreetmap.org/node/288347844"
     },
     {
       "id": "node/3004595745",
@@ -62821,7 +62945,12 @@
       "latitude": 50.9625381,
       "longitude": 5.0820577,
       "address": "125 Staatsbaan, 3545 Halen",
-      "fuelTypes": [],
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel",
+        "CNG"
+      ],
       "services": [
         {
           "id": "air",
@@ -62845,7 +62974,7 @@
         }
       ],
       "phone": "+32 13 46 13 76",
-      "website": "https://store.totalenergies.be/nl_BE/NB000520",
+      "website": "https://www.circlek.be/nl/Vind-een-station",
       "osmUrl": "https://www.openstreetmap.org/way/690333166"
     },
     {
@@ -64891,29 +65020,6 @@
       "osmUrl": "https://www.openstreetmap.org/node/2078054305"
     },
     {
-      "id": "node/2481517614",
-      "name": "Van Raak",
-      "brand": "Van Raak",
-      "country": "BE",
-      "latitude": 50.8906845,
-      "longitude": 4.7807435,
-      "address": "201 Diestsesteenweg, 3210 Lubbeek",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "carWash",
-          "label": "Car wash",
-          "source": "nearby"
-        }
-      ],
-      "website": "https://vanraak.be/nl/professionals/tanken/linden",
-      "osmUrl": "https://www.openstreetmap.org/node/2481517614"
-    },
-    {
       "id": "node/266721810",
       "name": "Van Raak",
       "brand": "Van Raak",
@@ -65494,28 +65600,6 @@
       "services": [],
       "website": "https://www.gulf.be/NL/tankstations.php#antwerpen",
       "osmUrl": "https://www.openstreetmap.org/node/1639402271"
-    },
-    {
-      "id": "way/835487314",
-      "name": "VDV Halen",
-      "country": "BE",
-      "latitude": 50.9623537,
-      "longitude": 5.0812372,
-      "address": "142 Staatsbaan, 3545 Halen",
-      "fuelTypes": [],
-      "services": [
-        {
-          "id": "air",
-          "label": "Air pump",
-          "source": "station"
-        },
-        {
-          "id": "evCharging",
-          "label": "EV charging",
-          "source": "nearby"
-        }
-      ],
-      "osmUrl": "https://www.openstreetmap.org/way/835487314"
     },
     {
       "id": "node/9209008002",
