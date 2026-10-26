@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T09:59:52.477Z",
-  "osmTimestamp": "2026-10-19T09:56:49Z",
+  "generatedAt": "2026-10-26T10:26:36.732Z",
+  "osmTimestamp": "2026-10-26T10:15:11Z",
   "attribution": "© OpenStreetMap contributors",
   "licenseUrl": "https://www.openstreetmap.org/copyright",
   "stations": [
@@ -2265,7 +2265,13 @@
       "latitude": 49.4817353,
       "longitude": 6.0429935,
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/node/686705457"
     },
     {

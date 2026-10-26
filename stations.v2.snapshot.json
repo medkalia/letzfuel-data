@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T09:59:52.477Z",
-  "osmTimestamp": "2026-10-19T09:56:49Z",
+  "generatedAt": "2026-10-26T10:26:36.732Z",
+  "osmTimestamp": "2026-10-26T10:15:11Z",
   "attribution": "© OpenStreetMap contributors",
   "licenseUrl": "https://www.openstreetmap.org/copyright",
   "stations": [
@@ -2368,7 +2368,13 @@
       "latitude": 49.4817353,
       "longitude": 6.0429935,
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/node/686705457"
     },
     {
@@ -5717,6 +5723,57 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/338169849"
+    },
+    {
+      "id": "node/14307518182",
+      "name": "Aers Truckplaza (personenwagens)",
+      "brand": "Aers",
+      "country": "BE",
+      "latitude": 51.297856,
+      "longitude": 3.2550135,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.aerstruckplaza.com/tankstations/",
+      "osmUrl": "https://www.openstreetmap.org/node/14307518182"
+    },
+    {
+      "id": "node/14307518184",
+      "name": "Aers Truckplaza (vrachtwagens)",
+      "brand": "Aers",
+      "country": "BE",
+      "latitude": 51.2983784,
+      "longitude": 3.2543685,
+      "fuelTypes": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.aerstruckplaza.com/tankstations/",
+      "osmUrl": "https://www.openstreetmap.org/node/14307518184"
     },
     {
       "id": "way/408058236",
@@ -15786,6 +15843,11 @@
           "id": "shop",
           "label": "Shop",
           "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/1415239623"
@@ -18660,35 +18722,6 @@
       "services": [],
       "website": "https://www.caps.be/nl/netwerk",
       "osmUrl": "https://www.openstreetmap.org/way/174996511"
-    },
-    {
-      "id": "way/251159598",
-      "name": "Esso Express",
-      "brand": "Esso Express",
-      "brandWikidata": "Q2350336",
-      "country": "BE",
-      "latitude": 50.9800691,
-      "longitude": 4.8211184,
-      "address": "147 Leuvensesteenweg, 3200 Aarschot",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [
-        {
-          "id": "carWash",
-          "label": "Car wash",
-          "source": "nearby"
-        },
-        {
-          "id": "shop",
-          "label": "Shop",
-          "source": "nearby"
-        }
-      ],
-      "website": "https://www.maes-oil.be/nl/tankstation/aarschot-esso/",
-      "osmUrl": "https://www.openstreetmap.org/way/251159598"
     },
     {
       "id": "way/262911639",
@@ -27823,6 +27856,24 @@
       "osmUrl": "https://www.openstreetmap.org/node/1396931560"
     },
     {
+      "id": "node/14313887724",
+      "name": "Lukoil",
+      "brand": "Lukoil",
+      "brandWikidata": "Q329347",
+      "country": "BE",
+      "latitude": 51.060538,
+      "longitude": 3.0957191,
+      "address": "76 Vredelaan, 8820 Torhout",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [],
+      "website": "https://www.lukoil.be/go/nl/lukoil_station.cfm?id=125",
+      "osmUrl": "https://www.openstreetmap.org/node/14313887724"
+    },
+    {
       "id": "node/146627967",
       "name": "Lukoil",
       "brand": "Lukoil",
@@ -29777,24 +29828,6 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/148999478"
-    },
-    {
-      "id": "way/150320656",
-      "name": "Lukoil",
-      "brand": "Lukoil",
-      "brandWikidata": "Q329347",
-      "country": "BE",
-      "latitude": 51.0605448,
-      "longitude": 3.0957134,
-      "address": "76 Vredelaan, 8820 Torhout",
-      "fuelTypes": [
-        "Super 95",
-        "Super 98",
-        "Diesel"
-      ],
-      "services": [],
-      "website": "https://www.lukoil.be/go/nl/lukoil_station.cfm?id=125",
-      "osmUrl": "https://www.openstreetmap.org/way/150320656"
     },
     {
       "id": "way/164835896",
@@ -32915,6 +32948,34 @@
       "services": [],
       "website": "https://www.maes-oil.be/nl/tankstation/opwijk-maes-2/",
       "osmUrl": "https://www.openstreetmap.org/way/704059382"
+    },
+    {
+      "id": "way/251159598",
+      "name": "Maes Aarschot",
+      "brand": "MAES",
+      "country": "BE",
+      "latitude": 50.9800691,
+      "longitude": 4.8211184,
+      "address": "147 Leuvensesteenweg, 3200 Aarschot",
+      "fuelTypes": [
+        "Super 95",
+        "Super 98",
+        "Diesel"
+      ],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
+      "website": "https://www.maesmobility.be/nl/tankstation/aarschot-maes/",
+      "osmUrl": "https://www.openstreetmap.org/way/251159598"
     },
     {
       "id": "node/1575636571",
@@ -43851,7 +43912,13 @@
       "longitude": 4.2674107,
       "address": "500 Chaussée Brunehault",
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/201664865"
     },
     {
@@ -56076,18 +56143,6 @@
       "osmUrl": "https://www.openstreetmap.org/node/253357161"
     },
     {
-      "id": "node/3539630113",
-      "name": "Total Heusy",
-      "brand": "Total",
-      "country": "BE",
-      "latitude": 50.5645438,
-      "longitude": 5.8663224,
-      "address": "51 Bouquette, 4800 Verviers",
-      "fuelTypes": [],
-      "services": [],
-      "osmUrl": "https://www.openstreetmap.org/node/3539630113"
-    },
-    {
       "id": "node/539795089",
       "name": "TOTAL Limbourg Havet",
       "brand": "TOTAL",
@@ -56445,7 +56500,7 @@
       "country": "BE",
       "latitude": 50.5914624,
       "longitude": 5.5716767,
-      "openingHours": "24/7",
+      "openingHours": "Mo-Sa 07:00-20:00; Su,PH 09:00-20:00",
       "fuelTypes": [
         "Super 95",
         "Super 98",
@@ -56456,6 +56511,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
         },
         {
           "id": "shop",
@@ -64121,6 +64181,19 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/node/1379307853"
+    },
+    {
+      "id": "node/3539630113",
+      "name": "TotalEnergies Heusy",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "country": "BE",
+      "latitude": 50.5645475,
+      "longitude": 5.8663517,
+      "address": "51 Bouquette, 4800 Verviers",
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/3539630113"
     },
     {
       "id": "node/416822823",
