@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T13:12:47.452Z",
-  "osmTimestamp": "2026-11-09T13:09:50Z",
+  "generatedAt": "2026-11-16T13:04:07.752Z",
+  "osmTimestamp": "2026-11-16T12:53:50Z",
   "attribution": "© OpenStreetMap contributors",
   "licenseUrl": "https://www.openstreetmap.org/copyright",
   "stations": [
@@ -1909,16 +1909,16 @@
       "osmUrl": "https://www.openstreetmap.org/node/1072256134"
     },
     {
-      "id": "way/679839575",
+      "id": "node/14364606439",
       "name": "Esso EG 2",
       "brand": "Esso",
       "brandWikidata": "Q867662",
-      "latitude": 49.5436677,
-      "longitude": 5.820053,
+      "latitude": 49.5436819,
+      "longitude": 5.8200648,
       "address": "455 Route de Longwy, 8432 Rodange",
       "fuelTypes": [],
       "services": [],
-      "osmUrl": "https://www.openstreetmap.org/way/679839575"
+      "osmUrl": "https://www.openstreetmap.org/node/14364606439"
     },
     {
       "id": "node/12075643210",
@@ -2858,7 +2858,7 @@
       "id": "node/279699159",
       "name": "Q8",
       "brand": "Q8",
-      "brandWikidata": "Q1634762",
+      "brandWikidata": "Q4119207",
       "latitude": 49.5423371,
       "longitude": 5.8166932,
       "fuelTypes": [],
@@ -2869,7 +2869,7 @@
       "id": "node/279699184",
       "name": "Q8",
       "brand": "Q8",
-      "brandWikidata": "Q1634762",
+      "brandWikidata": "Q4119207",
       "latitude": 49.5419089,
       "longitude": 5.815895,
       "fuelTypes": [],
@@ -3401,6 +3401,17 @@
       "osmUrl": "https://www.openstreetmap.org/node/13917679541"
     },
     {
+      "id": "node/14364606438",
+      "name": "Shell",
+      "brand": "Shell",
+      "brandWikidata": "Q110716465",
+      "latitude": 49.5431501,
+      "longitude": 5.8188176,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/14364606438"
+    },
+    {
       "id": "node/1480022470",
       "name": "Shell",
       "brand": "Shell",
@@ -3843,17 +3854,6 @@
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/314006368"
-    },
-    {
-      "id": "way/315249491",
-      "name": "Shell",
-      "brand": "Shell",
-      "brandWikidata": "Q154950",
-      "latitude": 49.5431501,
-      "longitude": 5.8188176,
-      "fuelTypes": [],
-      "services": [],
-      "osmUrl": "https://www.openstreetmap.org/way/315249491"
     },
     {
       "id": "way/540515464",
@@ -4644,6 +4644,17 @@
       "osmUrl": "https://www.openstreetmap.org/node/272498614"
     },
     {
+      "id": "node/14364606440",
+      "name": "Total Rodange",
+      "brand": "TotalEnergies",
+      "brandWikidata": "Q154037",
+      "latitude": 49.5442028,
+      "longitude": 5.8212811,
+      "fuelTypes": [],
+      "services": [],
+      "osmUrl": "https://www.openstreetmap.org/node/14364606440"
+    },
+    {
       "id": "way/1012421927",
       "name": "Total Rodange",
       "brand": "Total",
@@ -4653,17 +4664,6 @@
       "fuelTypes": [],
       "services": [],
       "osmUrl": "https://www.openstreetmap.org/way/1012421927"
-    },
-    {
-      "id": "way/469122169",
-      "name": "Total Rodange",
-      "brand": "Total",
-      "brandWikidata": "Q154037",
-      "latitude": 49.5442028,
-      "longitude": 5.8212811,
-      "fuelTypes": [],
-      "services": [],
-      "osmUrl": "https://www.openstreetmap.org/way/469122169"
     },
     {
       "id": "way/196797955",
