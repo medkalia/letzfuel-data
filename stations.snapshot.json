@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-16T13:04:07.752Z",
-  "osmTimestamp": "2026-11-16T12:53:50Z",
+  "generatedAt": "2026-11-23T15:22:36.053Z",
+  "osmTimestamp": "2026-11-23T14:46:58Z",
   "attribution": "© OpenStreetMap contributors",
   "licenseUrl": "https://www.openstreetmap.org/copyright",
   "stations": [
@@ -781,6 +781,21 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "vacuum",
+          "label": "Vacuum",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/1334673651"
@@ -804,6 +819,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/134421205"
@@ -825,7 +845,13 @@
       "latitude": 49.5856297,
       "longitude": 6.1440683,
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/187646012"
     },
     {
@@ -841,7 +867,28 @@
         "Super 98",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/217472459"
     },
     {
@@ -858,6 +905,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/234298290"
@@ -919,7 +971,18 @@
       "longitude": 6.2221419,
       "address": "1A Route de Bettel, 9415 Vianden",
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/462873156"
     },
     {
@@ -972,8 +1035,28 @@
       ],
       "services": [
         {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
           "id": "food",
           "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
           "source": "nearby"
         }
       ],
@@ -1111,6 +1194,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/127414825"
@@ -1215,6 +1303,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/117589688"
@@ -1232,6 +1325,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/117589699"
@@ -1641,7 +1739,23 @@
         "Super 98",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
       "phone": "+352 26 66 70 1",
       "osmUrl": "https://www.openstreetmap.org/way/117563684"
     },
@@ -1676,6 +1790,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/134421172"
@@ -1690,7 +1809,18 @@
       "address": "40 Route de Trèves, 2633 Senningerberg",
       "openingHours": "24/7",
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/137067433"
     },
     {
@@ -1701,7 +1831,13 @@
       "latitude": 49.5995781,
       "longitude": 6.1188609,
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/164340879"
     },
     {
@@ -1767,6 +1903,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/196797956"
@@ -1790,6 +1931,16 @@
           "id": "shop",
           "label": "Shop",
           "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
         }
       ],
       "phone": "+352 58 75 53",
@@ -1837,6 +1988,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/662141131"
@@ -2201,6 +2357,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
         }
       ],
       "phone": "+352 27 58 56 00",
@@ -2243,6 +2404,16 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/718497119"
@@ -2265,6 +2436,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
         }
       ],
       "phone": "+35226503214",
@@ -2283,7 +2459,18 @@
         "Super 98",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/898508831"
     },
     {
@@ -3042,10 +3229,23 @@
     {
       "id": "way/134508790",
       "name": "Q8",
+      "brand": "Q8",
+      "brandWikidata": "Q4119207",
       "latitude": 49.6015447,
       "longitude": 6.0624188,
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/134508790"
     },
     {
@@ -3097,7 +3297,7 @@
       "id": "way/238035099",
       "name": "Q8",
       "brand": "Q8",
-      "brandWikidata": "Q1634762",
+      "brandWikidata": "Q4119207",
       "latitude": 49.547296,
       "longitude": 6.3612431,
       "address": "13 Route de l'Europe, 5531 Remich",
@@ -3125,7 +3325,18 @@
       "latitude": 49.7262771,
       "longitude": 5.9869177,
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
       "website": "https://www.q8.lu/stations/q8-saeul",
       "osmUrl": "https://www.openstreetmap.org/way/480744267"
     },
@@ -3142,7 +3353,13 @@
         "Super 98",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/570961945"
     },
     {
@@ -3158,7 +3375,18 @@
         "Super 98",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/58880015"
     },
     {
@@ -3171,7 +3399,18 @@
       "address": "91 Route de Luxembourg, 7240 Bereldange",
       "openingHours": "Mo-Su 06:30-21:30",
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
       "phone": "+352 33 03 20",
       "osmUrl": "https://www.openstreetmap.org/way/120512610"
     },
@@ -3752,7 +3991,13 @@
       "latitude": 49.5990515,
       "longitude": 6.124227,
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/164340663"
     },
     {
@@ -3791,7 +4036,18 @@
         "Super 95",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
+        }
+      ],
       "phone": "+352450053",
       "website": "https://find.shell.com/lu/fuel/10030277-helfent-bertrange-l07142",
       "osmUrl": "https://www.openstreetmap.org/way/191643049"
@@ -3810,6 +4066,11 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/208158953"
@@ -3848,6 +4109,16 @@
       "fuelTypes": [],
       "services": [
         {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
           "id": "shop",
           "label": "Shop",
           "source": "nearby"
@@ -3867,7 +4138,13 @@
         "Super 98",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/540515464"
     },
     {
@@ -3878,7 +4155,18 @@
       "latitude": 49.788636,
       "longitude": 6.0970112,
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/545734609"
     },
     {
@@ -3890,7 +4178,13 @@
       "longitude": 6.1273876,
       "address": "289 Rue de Beggen, 1221 Luxembourg",
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/705251236"
     },
     {
@@ -3906,7 +4200,28 @@
         "Super 98",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/130532615"
     },
     {
@@ -3957,13 +4272,19 @@
     {
       "id": "way/987133350",
       "name": "Station Total",
-      "brand": "Total",
+      "brand": "TotalEnergies",
       "brandWikidata": "Q154037",
       "latitude": 49.5953722,
       "longitude": 6.2134424,
       "address": "4 Rue Daniel Grün, 5315 Contern",
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/987133350"
     },
     {
@@ -4359,7 +4680,7 @@
     {
       "id": "way/1015054176",
       "name": "Total",
-      "brand": "Total",
+      "brand": "TotalEnergies",
       "brandWikidata": "Q154037",
       "latitude": 49.5485293,
       "longitude": 6.0447442,
@@ -4370,6 +4691,16 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/1015054176"
@@ -4377,7 +4708,7 @@
     {
       "id": "way/238035098",
       "name": "Total",
-      "brand": "Total",
+      "brand": "TotalEnergies",
       "brandWikidata": "Q154037",
       "latitude": 49.5475335,
       "longitude": 6.3605165,
@@ -4400,7 +4731,7 @@
     {
       "id": "way/238035106",
       "name": "Total",
-      "brand": "Total",
+      "brand": "TotalEnergies",
       "brandWikidata": "Q154037",
       "latitude": 49.5473091,
       "longitude": 6.3635446,
@@ -4423,7 +4754,28 @@
       "longitude": 6.3627732,
       "address": "5 Schengerwis, 5439 Remerschen",
       "fuelTypes": [],
-      "services": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "vacuum",
+          "label": "Vacuum",
+          "source": "nearby"
+        }
+      ],
       "phone": "+352 27 68 98 70",
       "osmUrl": "https://www.openstreetmap.org/way/522076547"
     },
@@ -4439,7 +4791,13 @@
         "Super 98",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/61960822"
     },
     {
@@ -4456,6 +4814,16 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/93508674"
@@ -4511,7 +4879,7 @@
     {
       "id": "way/157004482",
       "name": "Total Bonnevoie",
-      "brand": "Total",
+      "brand": "TotalEnergies",
       "brandWikidata": "Q154037",
       "latitude": 49.5910226,
       "longitude": 6.1410139,
@@ -4527,6 +4895,21 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/157004482"
@@ -4562,7 +4945,7 @@
     {
       "id": "way/162121939",
       "name": "Total Luxembourg",
-      "brand": "Total",
+      "brand": "TotalEnergies",
       "brandWikidata": "Q154037",
       "latitude": 49.6084846,
       "longitude": 6.1506551,
@@ -4623,7 +5006,7 @@
     {
       "id": "node/272498614",
       "name": "Total Remich",
-      "brand": "Total",
+      "brand": "TotalEnergies",
       "brandWikidata": "Q154037",
       "latitude": 49.5472594,
       "longitude": 6.3618458,
@@ -4679,6 +5062,16 @@
           "id": "air",
           "label": "Air pump",
           "source": "station"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "toilets",
+          "label": "Toilets",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/196797955"
@@ -4827,7 +5220,7 @@
     {
       "id": "way/235476539",
       "name": "TotalEnergies Mersch",
-      "brand": "Total",
+      "brand": "TotalEnergies",
       "brandWikidata": "Q154037",
       "latitude": 49.7565642,
       "longitude": 6.098919,
@@ -4835,7 +5228,28 @@
         "Super 95",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        }
+      ],
       "osmUrl": "https://www.openstreetmap.org/way/235476539"
     },
     {
@@ -4944,7 +5358,28 @@
         "Super 98",
         "Diesel"
       ],
-      "services": [],
+      "services": [
+        {
+          "id": "air",
+          "label": "Air pump",
+          "source": "nearby"
+        },
+        {
+          "id": "vacuum",
+          "label": "Vacuum",
+          "source": "nearby"
+        },
+        {
+          "id": "shop",
+          "label": "Shop",
+          "source": "nearby"
+        },
+        {
+          "id": "carWash",
+          "label": "Car wash",
+          "source": "nearby"
+        }
+      ],
       "phone": "+352395270",
       "osmUrl": "https://www.openstreetmap.org/way/172855771"
     },
@@ -5009,6 +5444,11 @@
           "id": "shop",
           "label": "Shop",
           "source": "station"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/175081760"
@@ -5029,6 +5469,21 @@
           "id": "shop",
           "label": "Shop",
           "source": "station"
+        },
+        {
+          "id": "atm",
+          "label": "ATM",
+          "source": "nearby"
+        },
+        {
+          "id": "food",
+          "label": "Food",
+          "source": "nearby"
+        },
+        {
+          "id": "evCharging",
+          "label": "EV charging",
+          "source": "nearby"
         }
       ],
       "osmUrl": "https://www.openstreetmap.org/way/322902483"
